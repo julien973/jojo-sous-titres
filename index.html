@@ -8,49 +8,49 @@
 * { box-sizing: border-box; }
 :root { font-family: Inter, "Segoe UI", system-ui, sans-serif; }
 body.day, body.night {
-  --progress-grad: linear-gradient(90deg, #f06192, #fbbf24, #4ade80, #38bdf8, #a78bfa);
-  --progress-glow: rgba(240, 97, 146, .6);
-  --acc: #7c3aed; --acc-2: #a78bfa; --acc-soft: rgba(147, 90, 255, .14);
-  --date-bg: linear-gradient(150deg, #8b5cf6, #6d28d9); --date-ink: #f5f2ff;
-  --date-glow: 0 6px 18px rgba(124, 58, 237, .35);
+  --progress-grad: linear-gradient(90deg, #fb7185, #fbbf24, #4ade80, #22d3ee, #3b82f6);
+  --progress-glow: rgba(34, 211, 238, .55);
+  --acc: #0891b2; --acc-2: #22d3ee; --acc-soft: rgba(34, 211, 238, .16);
+  --date-bg: linear-gradient(150deg, #0e7490, #155e75); --date-ink: #ecfeff;
+  --date-glow: 0 6px 18px rgba(8, 145, 178, .4);
 }
 body.night {
-  --bg-base: #2e2650; --ink: #f0ecfa; --muted: #b6a8d8;
+  --bg-base: #07182a; --ink: #e8f6fb; --muted: #93bdd1;
   --bg-image:
-    radial-gradient(ellipse 60% 42% at 20% 10%, rgba(178,128,255,.55), transparent 62%),
-    radial-gradient(ellipse 50% 36% at 85% 20%, rgba(125,155,255,.5), transparent 62%),
-    radial-gradient(ellipse 55% 40% at 78% 92%, rgba(240,140,255,.4), transparent 62%),
-    radial-gradient(ellipse 45% 32% at 12% 88%, rgba(100,130,255,.38), transparent 60%),
-    linear-gradient(160deg, #35295e 0%, #3d2f6b 50%, #312654 100%);
-  --surface: rgba(46,36,74,.66); --surface-kpi: rgba(52,42,84,.6);
-  --card-border: rgba(230,220,255,.22); --border-strong: rgba(230,220,255,.5);
+    radial-gradient(ellipse 60% 42% at 20% 8%, rgba(34,211,238,.4), transparent 62%),
+    radial-gradient(ellipse 50% 36% at 85% 18%, rgba(59,130,246,.35), transparent 62%),
+    radial-gradient(ellipse 55% 40% at 78% 92%, rgba(251,113,133,.26), transparent 62%),
+    radial-gradient(ellipse 45% 32% at 12% 88%, rgba(20,184,166,.32), transparent 60%),
+    linear-gradient(160deg, #0a2138 0%, #0d2942 50%, #081c30 100%);
+  --surface: rgba(10,38,58,.66); --surface-kpi: rgba(13,46,66,.6);
+  --card-border: rgba(190,230,245,.22); --border-strong: rgba(190,230,245,.5);
   --inner-light: inset 0 1px 0 rgba(255,255,255,.12);
-  --btn-bg: rgba(230,220,255,.12); --btn-hover: rgba(230,220,255,.24); --btn-ink: #f0ecfa; --btn-border: rgba(230,220,255,.4);
-  --shadow-md: 0 2px 6px rgba(15,8,40,.25), 0 16px 40px rgba(15,8,40,.4);
-  --halo: 0 0 0 1px rgba(230,220,255,.24), 0 14px 44px rgba(15,8,40,.5), 0 0 30px rgba(147,90,255,.28);
-  --topbar-bg: rgba(41,32,72,.6); --topbar-border: rgba(230,220,255,.16);
-  --badge-bg: rgba(230,220,255,.10); --badge-border: rgba(230,220,255,.28);
-  --past-ink: rgba(240,236,250,.4); --spot: rgba(200,180,255,.16);
-  --win-bar-grad: linear-gradient(90deg, #8b5cf6, #38bdf8);
+  --btn-bg: rgba(190,230,245,.12); --btn-hover: rgba(190,230,245,.24); --btn-ink: #e8f6fb; --btn-border: rgba(190,230,245,.4);
+  --shadow-md: 0 2px 6px rgba(2,10,20,.3), 0 16px 40px rgba(2,10,20,.45);
+  --halo: 0 0 0 1px rgba(190,230,245,.24), 0 14px 44px rgba(2,10,20,.5), 0 0 30px rgba(34,211,238,.25);
+  --topbar-bg: rgba(6,26,42,.6); --topbar-border: rgba(190,230,245,.16);
+  --badge-bg: rgba(190,230,245,.10); --badge-border: rgba(190,230,245,.28);
+  --past-ink: rgba(232,246,251,.4); --spot: rgba(103,232,249,.14);
+  --win-bar-grad: linear-gradient(90deg, #0e7490, #22d3ee);
 }
 body.day {
-  --bg-base: #ece7fb; --ink: #2b2340; --muted: #7d729c;
+  --bg-base: #e3f4f4; --ink: #0d2b36; --muted: #6e97a5;
   --bg-image:
-    radial-gradient(ellipse 55% 38% at 15% 10%, rgba(167,120,255,.5), transparent 62%),
-    radial-gradient(ellipse 45% 32% at 88% 15%, rgba(96,165,250,.42), transparent 60%),
-    radial-gradient(ellipse 50% 35% at 80% 90%, rgba(232,121,249,.38), transparent 62%),
-    radial-gradient(ellipse 40% 28% at 10% 85%, rgba(129,140,248,.35), transparent 60%),
-    linear-gradient(160deg, #f7f4ff 0%, #ebe5fa 100%);
-  --surface: rgba(255,253,255,.78); --surface-kpi: rgba(255,253,255,.7);
-  --card-border: rgba(255,255,255,.95); --border-strong: rgba(43,35,64,.28);
+    radial-gradient(ellipse 55% 38% at 15% 10%, rgba(103,232,249,.5), transparent 62%),
+    radial-gradient(ellipse 45% 32% at 88% 15%, rgba(134,239,172,.4), transparent 60%),
+    radial-gradient(ellipse 50% 35% at 80% 90%, rgba(251,207,232,.4), transparent 62%),
+    radial-gradient(ellipse 40% 28% at 10% 85%, rgba(147,197,253,.38), transparent 60%),
+    linear-gradient(160deg, #f2fbfb 0%, #d9efef 100%);
+  --surface: rgba(255,254,255,.78); --surface-kpi: rgba(255,254,255,.7);
+  --card-border: rgba(255,255,255,.95); --border-strong: rgba(13,43,54,.28);
   --inner-light: inset 0 1px 0 rgba(255,255,255,.9);
-  --btn-bg: rgba(255,255,255,.65); --btn-hover: #ffffff; --btn-ink: #2b2340; --btn-border: rgba(43,35,64,.22);
-  --shadow-md: 0 2px 6px rgba(70,50,140,.06), 0 16px 40px rgba(70,50,140,.14);
-  --halo: 0 0 0 1px rgba(255,255,255,.95), 0 14px 44px rgba(70,50,140,.18), 0 0 28px rgba(147,90,255,.2);
-  --topbar-bg: rgba(247,244,255,.68); --topbar-border: rgba(43,35,64,.1);
-  --badge-bg: rgba(124,58,237,.07); --badge-border: rgba(124,58,237,.22);
-  --past-ink: rgba(43,35,64,.38); --spot: rgba(147,90,255,.1);
-  --win-bar-grad: linear-gradient(90deg, #7c3aed, #38bdf8);
+  --btn-bg: rgba(255,255,255,.65); --btn-hover: #ffffff; --btn-ink: #0d2b36; --btn-border: rgba(13,43,54,.22);
+  --shadow-md: 0 2px 6px rgba(20,83,99,.07), 0 16px 40px rgba(20,83,99,.14);
+  --halo: 0 0 0 1px rgba(255,255,255,.95), 0 14px 44px rgba(20,83,99,.18), 0 0 28px rgba(34,211,238,.22);
+  --topbar-bg: rgba(242,251,251,.68); --topbar-border: rgba(13,43,54,.1);
+  --badge-bg: rgba(8,145,178,.07); --badge-border: rgba(8,145,178,.22);
+  --past-ink: rgba(13,43,54,.38); --spot: rgba(34,211,238,.12);
+  --win-bar-grad: linear-gradient(90deg, #0891b2, #22d3ee);
 }
 body { margin: 0; padding: 0 0 64px; min-height: 100vh; min-height: 100svh; overscroll-behavior-y: none;
   color: var(--ink); background-color: var(--bg-base); background-image: var(--bg-image);
@@ -79,7 +79,7 @@ body { margin: 0; padding: 0 0 64px; min-height: 100vh; min-height: 100svh; over
   backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
   padding: 26px 26px 22px; margin-top: 18px; position: relative; overflow: hidden; }
 .hero::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
-  background: linear-gradient(90deg, var(--acc-2), var(--acc)); }
+  background: linear-gradient(90deg, #22d3ee, #0891b2, #3b82f6); }
 .hero h1 { margin: 0 0 8px; font-size: 1.65rem; }
 .hero p { margin: 0; color: var(--muted); font-style: italic; }
 .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; margin: 18px 0; }
@@ -91,7 +91,7 @@ body { margin: 0; padding: 0 0 64px; min-height: 100vh; min-height: 100svh; over
 .kpi:hover { transform: translateY(-3px); box-shadow: var(--halo); }
 .kpi .label { font-size: .78rem; text-transform: uppercase; letter-spacing: 1.4px; color: var(--muted); font-weight: 600; }
 .kpi .value { font-size: 2rem; font-weight: 800; margin: 4px 0 2px;
-  background: linear-gradient(135deg, #a78bfa, #7c3aed, #38bdf8);
+  background: linear-gradient(135deg, #67e8f9, #0891b2, #3b82f6);
   -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 .kpi .sub { font-size: .85rem; color: var(--muted); }
 .win { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--card-border); border-radius: 18px;
@@ -105,7 +105,7 @@ body { margin: 0; padding: 0 0 64px; min-height: 100vh; min-height: 100svh; over
 .win-bar { height: 9px; border-radius: 999px; background: var(--badge-bg); border: 1px solid var(--badge-border); overflow: hidden;
   box-shadow: inset 0 1px 3px rgba(0,0,0,.12); }
 .win-bar i { display: block; height: 100%; background: var(--win-bar-grad); border-radius: 999px;
-  box-shadow: 0 0 10px rgba(124,58,237,.4); }
+  box-shadow: 0 0 10px rgba(8,145,178,.4); }
 .section { margin: 26px 0; }
 .section-title { display: flex; align-items: center; gap: 10px; font-size: 1.2rem; margin: 0 0 14px; font-weight: 700; }
 .section-title::after { content: ""; flex: 1; height: 1px;
@@ -133,8 +133,8 @@ body { margin: 0; padding: 0 0 64px; min-height: 100vh; min-height: 100svh; over
 .badge { display: inline-flex; align-items: center; gap: 5px; font-size: .78rem; padding: 4px 11px; font-weight: 600;
   border-radius: 999px; background: var(--badge-bg); border: 1px solid var(--badge-border);
   backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
-.badge.wip { border-color: var(--acc-2); color: var(--acc-2); font-weight: 700;
-  box-shadow: 0 0 12px rgba(147,90,255,.25); }
+.badge.wip { border-color: #fb7185; color: #f43f5e; font-weight: 700;
+  box-shadow: 0 0 12px rgba(244,63,94,.3); }
 .badge.ok { border-color: #4ade80; color: #16a34a; }
 .badge.todo { color: var(--muted); }
 .badge.miss { border-color: #f59e0b; color: #d97706; }
@@ -144,15 +144,15 @@ body { margin: 0; padding: 0 0 64px; min-height: 100vh; min-height: 100svh; over
   padding: 4px 18px; border-radius: 6px; opacity: .5; pointer-events: none; text-transform: uppercase; z-index: 2;
   box-shadow: 0 0 0 1px rgba(239,68,68,.25) inset; background: rgba(239,68,68,.06); }
 .dl { display: inline-flex; align-items: center; gap: 6px; font-family: inherit; font-size: .82rem; font-weight: 700;
-  color: #fff; background: linear-gradient(135deg, #8b5cf6, #7c3aed); border: none; cursor: pointer;
+  color: #fff; background: linear-gradient(135deg, #0891b2, #155e75); border: none; cursor: pointer;
   padding: 7px 14px; border-radius: 999px; text-decoration: none;
-  box-shadow: 0 4px 14px rgba(124,58,237,.35), inset 0 1px 0 rgba(255,255,255,.3); transition: filter .18s, transform .18s; }
+  box-shadow: 0 4px 14px rgba(8,145,178,.35), inset 0 1px 0 rgba(255,255,255,.3); transition: filter .18s, transform .18s; }
 .dl:hover { filter: brightness(1.1); transform: translateY(-1px); }
-.wipcard { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--acc-2); border-radius: 18px;
-  box-shadow: var(--shadow-md), var(--inner-light), 0 0 26px rgba(139,92,246,.35); padding: 20px 22px; margin-bottom: 14px;
+.wipcard { position: relative; overflow: hidden; background: var(--surface); border: 1px solid #fb7185; border-radius: 18px;
+  box-shadow: var(--shadow-md), var(--inner-light), 0 0 26px rgba(251,113,133,.35); padding: 20px 22px; margin-bottom: 14px;
   backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
 .wipcard::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
-  background: linear-gradient(90deg, var(--acc-2), var(--acc), var(--acc-2)); filter: saturate(1.3) brightness(1.12); }
+  background: linear-gradient(90deg, #fda4af, #fb7185, #f43f5e); filter: saturate(1.3) brightness(1.12); }
 .chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
 .chip { position: relative; overflow: hidden; background: var(--surface-kpi); border: 1px solid var(--card-border);
   border-radius: 14px; padding: 12px 8px; text-align: center;
@@ -186,7 +186,7 @@ body { margin: 0; padding: 0 0 64px; min-height: 100vh; min-height: 100svh; over
 </main>
 <footer class="botbar"><div class="botbar-inner">
 <span data-fr="🎬 Stone Ocean — Sous-titres anglais" data-en="🎬 Stone Ocean — English subtitles">🎬 Stone Ocean — Sous-titres anglais</span>
-<span class="bb-ver">v1.0 · 2026</span>
+<span class="bb-ver">v1.1 · 2026</span>
 </div></footer>
 <script>
 (function(){
@@ -209,22 +209,20 @@ var EPS = [
 var L = {
   fr: { hero:"JoJo's Bizarre Adventure — Stone Ocean",
         heroSub:"Sous-titres anglais traduits depuis les sous-titres FR de Thomas Chaumont. Un épisode terminé = un fichier .ass téléchargeable.",
-        kDone:"Épisodes terminés", kWip:"En cours", kTodo:"Restants", kNext:"Prochain à traduire",
+        kDone:"Épisodes terminés", kWip:"En cours", kTodo:"Restants",
         progT:"Progression de la saison", progS:"épisodes archivés sur 38",
         cur:"✨ Épisode en cours", curD:"Traduction en cours — le téléchargement apparaîtra dès qu'elle sera terminée.",
         arc:"✓ Épisodes archivés", miss:"⚠️ À refaire", next:"⏳ À venir",
-        eN:"Épisode", stDone:"✓ Terminé", stTodo:"À traduire", stMiss:"Fichier perdu",
-        dl:"⬇ Télécharger le .ass", stamp:"À refaire",
-        chipTodo:"À traduire", chipNext:"Prochain" },
+        eN:"Épisode", stDone:"✓ Terminé", stMiss:"Fichier perdu", chipTodo:"À traduire",
+        dl:"⬇ Télécharger le .ass", stamp:"À refaire" },
   en: { hero:"JoJo's Bizarre Adventure — Stone Ocean",
         heroSub:"English subtitles translated from Thomas Chaumont's French subs. One finished episode = one downloadable .ass file.",
-        kDone:"Completed episodes", kWip:"In progress", kTodo:"Remaining", kNext:"Next to translate",
+        kDone:"Completed episodes", kWip:"In progress", kTodo:"Remaining",
         progT:"Season progress", progS:"episodes archived out of 38",
         cur:"✨ Current episode", curD:"Translation in progress — the download will appear as soon as it's done.",
         arc:"✓ Archived episodes", miss:"⚠️ To redo", next:"⏳ Upcoming",
-        eN:"Episode", stDone:"✓ Done", stTodo:"To translate", stMiss:"File lost",
-        dl:"⬇ Download .ass", stamp:"To redo",
-        chipTodo:"To translate", chipNext:"Next" }
+        eN:"Episode", stDone:"✓ Done", stMiss:"File lost", chipTodo:"To translate",
+        dl:"⬇ Download .ass", stamp:"To redo" }
 };
 var THEME_KEY = "jojo-theme"; var LANG_KEY = "jojo-lang";
 var lang = "fr"; try { lang = localStorage.getItem(LANG_KEY) || "fr"; } catch(e) {}
@@ -304,9 +302,8 @@ function render(){
   }
   if (todo.length) {
     h += '<div class="section"><h2 class="section-title">' + t("next") + '</h2><div class="chips">';
-    todo.forEach(function(e, i){
-      var label = (i === 0 && !wip.length) ? t("chipNext") : t("chipTodo");
-      h += chip(e.n, label);
+    todo.forEach(function(e){
+      h += chip(e.n, t("chipTodo"));
     });
     h += '</div></div>';
   }
