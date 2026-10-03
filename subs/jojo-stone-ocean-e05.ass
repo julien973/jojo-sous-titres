@@ -1,0 +1,388 @@
+
+[Script Info]
+; Translation FR > EN of the extracted "FR Complets" track (E05)
+; Original subtitles: Thomas Chaumont
+Title: Jojo's Bizarre Adventure - S05E05 - CUSTOM MULTi 1080p 10bits BluRay x265-GundamGuy
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title Part 6,FOT-Seurat Pro DB,72,&H00FDFDFD,&H000000FF,&H00030304,&H96000000,0,0,0,0,96,100,3,0,1,3.5,0,1,90,90,41,1
+Style: Part 6 OP1 Japanese,Funkrocker,80,&H00FFFFFF,&H000000FF,&H00000000,&H00010002,0,0,0,0,100,100,1,0,1,5,3,8,10,10,10,1
+Style: Part 6 OP1 English,Funkrocker,75,&H00FFFFFF,&H000000FF,&H00000000,&H00010002,0,0,0,0,100,100,1,0,1,5,3,2,10,10,25,1
+Style: Part 6 Next Episode,FOT-Gospel Std EB,130,&H00C446FE,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,103,100,0,0,1,3,0,2,45,45,35,1
+Style: Part 6 Next Episode - Back,FOT-Gospel Std EB,130,&H00C446FE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,103,100,0,0,1,10,0,2,45,45,35,1
+Style: Default,Trebuchet MS,65,&H00FEFFFE,&H000000FF,&H00282828,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0,0,70,1
+Style: TiretsDefault,Trebuchet MS,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,1,0,0,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:23:33.06,0:23:33.98,Default,,0,0,0,,TO BE CONTINUED
+Comment: 0,0:23:34.19,0:23:36.90,Default,,0,0,0,,Subtitles: Thomas Chaumont
+Dialogue: 9,0:01:36.49,0:01:37.80,Default,,0,0,0,,{\an8}What is this?
+Dialogue: 9,0:01:38.16,0:01:39.79,Default,,0,0,0,,{\an8}You're awake.
+Dialogue: 9,0:01:40.79,0:01:43.21,Default,,0,0,0,,We were dreaming?
+Dialogue: 9,0:01:43.41,0:01:46.39,Default,,0,0,0,,Yes. And this substance is\Ndissolving us.
+Dialogue: 9,0:01:46.62,0:01:47.92,Default,,0,0,0,,In this room.
+Dialogue: 9,0:01:48.42,0:01:50.47,Default,,0,0,0,,For pity's sake, break down the door.
+Dialogue: 9,0:01:50.60,0:01:53.47,Default,,0,0,0,,Use your power, Star Platinum.
+Dialogue: 9,0:01:55.22,0:01:56.60,Default,,0,0,0,,Hurry up!
+Dialogue: 9,0:02:02.53,0:02:04.81,Default,,0,0,0,,Nice going! Now drag me out of here!
+Dialogue: 9,0:02:04.94,0:02:06.48,Default,,0,0,0,,Let's get out of here!
+Dialogue: 9,0:02:07.15,0:02:08.07,Default,,0,0,0,,Wait.
+Dialogue: 9,0:02:08.73,0:02:10.69,Default,,0,0,0,,What did you just say?
+Dialogue: 9,0:02:10.78,0:02:12.65,Default,,0,0,0,,"Star Platinum"?
+Dialogue: 9,0:02:13.24,0:02:14.45,Default,,0,0,0,,That's the name of my Stand.
+Dialogue: 9,0:02:15.49,0:02:18.20,Default,,0,0,0,,How do you know it, Jolyne?
+Dialogue: 9,0:02:18.70,0:02:19.99,Default,,0,0,0,,It seems
+Dialogue: 9,0:02:20.50,0:02:23.37,Default,,0,0,0,,we started dreaming\nafter I told you about Jongalli A.
+Dialogue: 9,0:02:23.96,0:02:24.96,Default,,0,0,0,,Which means
+Dialogue: 9,0:02:25.92,0:02:28.42,Default,,0,0,0,,you haven't seen my Stand yet.
+Dialogue: 9,0:02:28.96,0:02:32.17,Default,,0,0,0,,Since we share the same blood,\Nyou may be able to sense its presence,
+Dialogue: 9,0:02:32.26,0:02:34.63,Default,,0,0,0,,but you can't guess its name.
+Dialogue: 9,0:02:37.39,0:02:39.10,Default,,0,0,0,,That makes no sense!
+Dialogue: 9,0:02:41.81,0:02:42.81,Default,,0,0,0,,This...
+Dialogue: 9,0:02:43.31,0:02:44.44,Default,,0,0,0,,isn't reality!
+Dialogue: 9,0:02:54.45,0:02:56.66,Default,,0,0,0,,Stone Free...
+Dialogue: 9,0:02:57.66,0:02:58.66,Default,,0,0,0,,Jolyne.
+Dialogue: 9,0:02:59.02,0:03:01.77,Default,,0,0,0,,You're finally awake.
+Dialogue: 9,0:03:02.03,0:03:03.54,Default,,0,0,0,,It took everything I had.
+Dialogue: 9,0:03:04.08,0:03:05.67,Default,,0,0,0,,My string is melting away fast.
+Dialogue: 9,0:03:06.17,0:03:08.88,Default,,0,0,0,,You were dreaming too.
+Dialogue: 9,0:03:09.38,0:03:11.46,Default,,0,0,0,,I don't know what yours was like,
+Dialogue: 9,0:03:11.55,0:03:13.84,Default,,0,0,0,,but my dream was a horrible nightmare.
+Dialogue: 9,0:03:14.05,0:03:14.88,Default,,0,0,0,,I see.
+Dialogue: 9,0:03:15.51,0:03:18.30,Default,,0,0,0,,So we were both dreaming
+Dialogue: 9,0:03:18.39,0:03:19.80,Default,,0,0,0,,like at the movies.
+Dialogue: 9,0:03:20.01,0:03:21.22,Default,,0,0,0,,Yes.
+Dialogue: 9,0:03:21.31,0:03:23.68,Default,,0,0,0,,It would have been way better\nwith some popcorn.
+Dialogue: 9,0:03:24.21,0:03:27.27,Default,,0,0,0,,I can't move. Not even a finger.
+Dialogue: 9,0:03:27.40,0:03:29.89,Default,,0,0,0,,Can you move?
+Dialogue: 9,0:03:30.09,0:03:31.98,Default,,0,0,0,,What we're perceiving
+Dialogue: 9,0:03:32.65,0:03:34.49,Default,,0,0,0,,could be another dream.
+Dialogue: 9,0:03:35.54,0:03:38.44,Default,,0,0,0,,If you can't move at all,\Nthen we're awake.
+Dialogue: 9,0:03:38.66,0:03:40.74,Default,,0,0,0,,We're in reality,
+Dialogue: 9,0:03:40.83,0:03:42.58,Default,,0,0,0,,and we can't get out of here.
+Dialogue: 9,0:03:42.79,0:03:43.58,Default,,0,0,0,,I see.
+Dialogue: 9,0:03:44.08,0:03:46.79,Default,,0,0,0,,At this rate, we're going to die.
+Dialogue: 9,0:03:47.62,0:03:49.13,Default,,0,0,0,,The pendant's power...
+Dialogue: 9,0:03:49.81,0:03:52.50,Default,,0,0,0,,Show me the power\nyou used to wake me up.
+Dialogue: 9,0:03:53.50,0:03:55.21,Default,,0,0,0,,Stone Free.
+Dialogue: 9,0:03:55.34,0:03:57.98,Default,,0,0,0,,Yes. Can you materialize it?
+Dialogue: 9,0:03:58.17,0:03:59.51,Default,,0,0,0,,Your power, I mean.
+Dialogue: 9,0:03:59.70,0:04:02.01,Default,,0,0,0,,I understand, but it's pointless.
+Dialogue: 9,0:04:02.35,0:04:04.51,Default,,0,0,0,,Waking you up was already almost too much.
+Dialogue: 9,0:04:04.68,0:04:06.52,Default,,0,0,0,,Breaking down the door is impossible.
+Dialogue: 9,0:04:06.64,0:04:08.56,Default,,0,0,0,,No, just materialize it.
+Dialogue: 9,0:04:14.28,0:04:15.57,Default,,0,0,0,,There.
+Dialogue: 9,0:04:16.24,0:04:17.24,Default,,0,0,0,,Keep going.
+Dialogue: 9,0:04:17.86,0:04:19.70,Default,,0,0,0,,Can you bring it out a little more?
+Dialogue: 9,0:04:19.91,0:04:23.58,Default,,0,0,0,,Slightly toward me.
+Dialogue: 9,0:04:24.79,0:04:28.16,Default,,0,0,0,,It would be better if you could\nmove it a little more to your left.
+Dialogue: 9,0:04:29.46,0:04:31.08,Default,,0,0,0,,That'll do.
+Dialogue: 9,0:04:31.17,0:04:33.54,Default,,0,0,0,,The position isn't ideal, but it'll work.
+Dialogue: 9,0:04:34.25,0:04:36.67,Default,,0,0,0,,Now we can get out of here.
+Dialogue: 9,0:04:47.39,0:04:50.39,Default,,0,0,0,,That was my Stand, Star Platinum.
+Dialogue: 9,0:04:50.98,0:04:54.57,Default,,0,0,0,,Drag me. We're not dreaming.\NI'm certain of that now.
+Dialogue: 9,0:04:54.70,0:04:56.65,Default,,0,0,0,,You bastard.
+Dialogue: 9,0:04:58.44,0:05:00.82,Default,,0,0,0,,Goddamn son of a...
+Dialogue: 9,0:05:01.41,0:05:04.83,Default,,0,0,0,,I hurt and I'm furious.
+Dialogue: 9,0:05:05.04,0:05:07.08,Default,,0,0,0,,You actually hit me.
+Dialogue: 9,0:05:07.62,0:05:10.04,Default,,0,0,0,,We got out, but I'm angry!
+Dialogue: 9,0:05:10.25,0:05:12.46,Default,,0,0,0,,We're definitely not dreaming!
+Dialogue: 9,0:05:23.05,0:05:24.76,Default,,0,0,0,,Now, give me your hands.
+Dialogue: 9,0:05:25.39,0:05:26.72,Default,,0,0,0,,What now?
+Dialogue: 9,0:05:31.03,0:05:32.06,Default,,0,0,0,,Let's go.
+Dialogue: 9,0:05:32.73,0:05:33.60,Default,,0,0,0,,Ah, okay.
+Dialogue: 9,0:05:34.86,0:05:36.19,Default,,0,0,0,,Do you know what this is?
+Dialogue: 9,0:05:37.07,0:05:39.61,Default,,0,0,0,,This bone saved our lives.
+Dialogue: 9,0:05:40.11,0:05:41.28,Default,,0,0,0,,It's a human bone.
+Dialogue: 9,0:05:42.07,0:05:42.99,Default,,0,0,0,,More precisely,
+Dialogue: 9,0:05:43.61,0:05:46.78,Default,,0,0,0,,the pelvic face\nof an adult woman's sacrum.
+Dialogue: 9,0:05:46.87,0:05:50.96,Default,,0,0,0,,Its surface seems to have been dissolved\nby some kind of acid.
+Dialogue: 9,0:05:51.17,0:05:51.98,Default,,0,0,0,,Dissolved?
+Dialogue: 9,0:05:52.20,0:05:54.17,Default,,0,0,0,,By the same substance that's on us?
+Dialogue: 9,0:05:54.30,0:05:55.17,Default,,0,0,0,,I don't know.
+Dialogue: 9,0:05:55.71,0:05:59.38,Default,,0,0,0,,I don't know what you're doing with this bone,\Nbut it doesn't matter.
+Dialogue: 9,0:05:59.51,0:06:01.26,Default,,0,0,0,,{\i1}I'm the only one who saw that boy,{\i0}
+Dialogue: 9,0:06:01.37,0:06:03.02,Default,,0,0,0,,{\i1}but he's clearly around.{\i0}
+Dialogue: 9,0:06:03.17,0:06:06.10,Default,,0,0,0,,{\i1}It's a mystery,\Nbut he's in this prison!{\i0}
+Dialogue: 9,0:06:08.89,0:06:11.60,Default,,0,0,0,,{\i1}Code 909, level 4 emergency.{\i0}
+Dialogue: 9,0:06:11.81,0:06:14.35,Default,,0,0,0,,{\i1}Emergency alarm activated in the visiting room.{\i0}
+Dialogue: 9,0:06:14.48,0:06:16.81,Default,,0,0,0,,{\i1}Level 4 emergency, code 909.{\i0}
+Dialogue: 9,0:06:16.94,0:06:18.36,Default,,0,0,0,,What now?
+Dialogue: 9,0:06:18.57,0:06:21.24,Default,,0,0,0,,You've become a criminal too.
+Dialogue: 9,0:06:21.33,0:06:22.80,Default,,0,0,0,,Like I told you,
+Dialogue: 9,0:06:23.00,0:06:24.66,Default,,0,0,0,,I'm getting you out of here.
+Dialogue: 9,0:06:25.15,0:06:27.41,Default,,0,0,0,,Do you have the pendant?
+Dialogue: 9,0:06:29.87,0:06:31.91,Default,,0,0,0,,It is essential\nthat you keep it on you.
+Dialogue: 9,0:06:32.15,0:06:33.37,Default,,0,0,0,,Never lose it.
+Dialogue: 9,0:06:35.08,0:06:36.83,Default,,0,0,0,,Let's go. Let's leave this place.
+Dialogue: 9,0:06:48.05,0:06:52.31,Default,,0,0,0,,Who would have thought they'd be capable\nof escaping that room?
+Dialogue: 9,0:06:56.19,0:06:58.47,Default,,0,0,0,,Is it me, or are there few guards around?
+Dialogue: 9,0:06:58.63,0:07:00.48,Default,,0,0,0,,It's a common area.
+Dialogue: 9,0:07:02.23,0:07:03.15,Default,,0,0,0,,Look.
+Dialogue: 9,0:07:05.66,0:07:08.00,Default,,0,0,0,,We'll escape by the left side of the map.
+Dialogue: 9,0:07:08.86,0:07:10.98,Default,,0,0,0,,{\i1}That wall faces the beach.{\i0}
+Dialogue: 9,0:07:11.28,0:07:14.08,Default,,0,0,0,,{\i1}We'll board a submarine\Nto flee this island.{\i0}
+Dialogue: 9,0:07:14.31,0:07:15.83,Default,,0,0,0,,A submarine?
+Dialogue: 9,0:07:15.92,0:07:18.33,Default,,0,0,0,,I have good relations with a group
+Dialogue: 9,0:07:18.42,0:07:20.38,Default,,0,0,0,,that goes by\nthe Speedwagon Foundation.
+Dialogue: 9,0:07:20.49,0:07:22.38,Default,,0,0,0,,They've arranged our escape.
+Dialogue: 9,0:07:34.02,0:07:36.49,Default,,0,0,0,,There don't seem to be any cameras in this corridor.
+Dialogue: 9,0:07:36.75,0:07:39.44,Default,,0,0,0,,We're only one right turn away\nfrom the outer wall.
+Dialogue: 9,0:07:39.98,0:07:42.48,Default,,0,0,0,,We'll then be 20 meters from the shore.
+Dialogue: 9,0:07:43.40,0:07:45.35,Default,,0,0,0,,We have a lot to talk about,
+Dialogue: 9,0:07:45.53,0:07:47.45,Default,,0,0,0,,but let's get out of here first.
+Dialogue: 9,0:07:49.20,0:07:50.03,Default,,0,0,0,,Let's go.
+Dialogue: 9,0:07:57.00,0:07:58.83,Default,,0,0,0,,It's just the fan.
+Dialogue: 9,0:07:58.96,0:08:00.08,Default,,0,0,0,,Jolyne.
+Dialogue: 9,0:08:10.64,0:08:12.22,Default,,0,0,0,,That hurts!
+Dialogue: 9,0:08:12.72,0:08:14.75,Default,,0,0,0,,What are you looking at? Stay calm.
+Dialogue: 9,0:08:15.68,0:08:17.18,Default,,0,0,0,,Get up.
+Dialogue: 9,0:08:22.11,0:08:24.32,Default,,0,0,0,,What? Give me your hand.
+Dialogue: 9,0:08:24.45,0:08:26.47,Default,,0,0,0,,It's just that...
+Dialogue: 9,0:08:26.82,0:08:28.61,Default,,0,0,0,,Thanks,
+Dialogue: 9,0:08:28.70,0:08:30.87,Default,,0,0,0,,but I can get up on my own.
+Dialogue: 9,0:08:31.08,0:08:32.28,Default,,0,0,0,,That's not it.
+Dialogue: 9,0:08:32.41,0:08:35.45,Default,,0,0,0,,You almost lost this.\NWatch it when you stumble.
+Dialogue: 9,0:08:35.60,0:08:38.50,Default,,0,0,0,,I told you\Nnot to lose that pendant.
+Dialogue: 9,0:08:41.92,0:08:42.96,Default,,0,0,0,,What's wrong?
+Dialogue: 9,0:08:43.63,0:08:45.56,Default,,0,0,0,,I told you it was important.
+Dialogue: 9,0:08:45.75,0:08:47.67,Default,,0,0,0,,You have to take care of it. Take it back.
+Dialogue: 9,0:08:51.89,0:08:53.35,Default,,0,0,0,,You're leaving for Tokyo?
+Dialogue: 9,0:08:53.56,0:08:56.52,Default,,0,0,0,,This is about your daughter!
+Dialogue: 9,0:08:56.73,0:08:58.14,Default,,0,0,0,,And you call yourself a good father?
+Dialogue: 9,0:08:58.68,0:09:00.27,Default,,0,0,0,,Hello?
+Dialogue: 9,0:09:05.78,0:09:07.61,Default,,0,0,0,,You haven't changed one bit.
+Dialogue: 9,0:09:07.82,0:09:10.70,Default,,0,0,0,,Calm and unmoved as always.
+Dialogue: 9,0:09:10.91,0:09:13.41,Default,,0,0,0,,When I almost died of fever,
+Dialogue: 9,0:09:13.62,0:09:15.58,Default,,0,0,0,,you didn't come home\Nto watch over me.
+Dialogue: 9,0:09:15.79,0:09:19.19,Default,,0,0,0,,When I took a car for a joyride\Nand got accused of theft,
+Dialogue: 9,0:09:19.75,0:09:22.75,Default,,0,0,0,,you flew off to Tokyo.
+Dialogue: 9,0:09:23.42,0:09:26.46,Default,,0,0,0,,Basically, as long as I'm doing fine,\Nyou don't care about me, right?
+Dialogue: 9,0:09:30.01,0:09:32.64,Default,,0,0,0,,And now, I stumble\nbut I don't even get hurt.
+Dialogue: 9,0:09:32.85,0:09:33.84,Default,,0,0,0,,You couldn't be any more boring!
+Dialogue: 9,0:09:33.93,0:09:36.14,Default,,0,0,0,,Lucky me, everything's fine! Yay!
+Dialogue: 9,0:09:36.72,0:09:38.35,Default,,0,0,0,,What are you talking about?
+Dialogue: 9,0:09:40.23,0:09:43.06,Default,,0,0,0,,If she's so important to you,\Nyou carry her around!
+Dialogue: 9,0:09:44.73,0:09:45.65,Default,,0,0,0,,Listen.
+Dialogue: 9,0:09:45.86,0:09:47.07,Default,,0,0,0,,Shut up. I don't want it!
+Dialogue: 9,0:09:47.28,0:09:49.61,Default,,0,0,0,,That's not it. There's something here.
+Dialogue: 9,0:09:50.53,0:09:53.11,Default,,0,0,0,,It's following us in silence.
+Dialogue: 9,0:09:53.82,0:09:55.07,Default,,0,0,0,,Jolyne, get down.
+Dialogue: 9,0:10:11.05,0:10:12.97,Default,,0,0,0,,There's nobody here.
+Dialogue: 9,0:10:13.20,0:10:15.26,Default,,0,0,0,,They must have gone to the other side.
+Dialogue: 9,0:10:15.39,0:10:17.47,Default,,0,0,0,,Ah, it's just a guard.
+Dialogue: 9,0:10:18.85,0:10:20.81,Default,,0,0,0,,Hey, look closer!
+Dialogue: 9,0:10:21.02,0:10:23.02,Default,,0,0,0,,The door is bent!
+Dialogue: 9,0:10:23.52,0:10:26.40,Default,,0,0,0,,They came this far. We're at the...
+Dialogue: 9,0:10:38.62,0:10:40.45,Default,,0,0,0,,It's...
+Dialogue: 9,0:10:45.00,0:10:46.75,Default,,0,0,0,,Jongalli A!
+Dialogue: 9,0:10:51.05,0:10:52.46,Default,,0,0,0,,That bastard...
+Dialogue: 9,0:10:52.55,0:10:54.72,Default,,0,0,0,,He came to finish us off himself!
+Dialogue: 9,0:10:55.22,0:10:57.55,Default,,0,0,0,,Jolyne! Run toward the outer wall.
+Dialogue: 9,0:10:57.64,0:10:58.97,Default,,0,0,0,,I'll deal with him.
+Dialogue: 9,0:11:01.68,0:11:03.77,Default,,0,0,0,,{\i1}Jongalli A's Stand!{\i0}
+Dialogue: 9,0:11:03.98,0:11:06.44,Default,,0,0,0,,{\i1}The only time he trapped us,\Nit was in a dream.{\i0}
+Dialogue: 9,0:11:06.57,0:11:08.73,TiretsDefault,,712,0,0,, Die!\N Are we still dreaming?
+Dialogue: 9,0:11:13.03,0:11:15.11,Default,,0,0,0,,No! This is reality!
+Dialogue: 9,0:11:15.20,0:11:17.45,Default,,0,0,0,,Time, stop!
+Dialogue: 9,0:11:24.08,0:11:25.12,Default,,0,0,0,,Our enemies...
+Dialogue: 9,0:11:25.25,0:11:26.08,Default,,0,0,0,,There are
+Dialogue: 9,0:11:27.04,0:11:28.25,Default,,0,0,0,,two of them!
+Dialogue: 9,0:11:29.25,0:11:31.17,Default,,0,0,0,,{\i1}Not only did he force us to dream,{\i0}
+Dialogue: 9,0:11:31.38,0:11:32.46,Default,,0,0,0,,{\i1}but he showed us{\i0}
+Dialogue: 9,0:11:32.77,0:11:35.63,Default,,0,0,0,,{\i1}Jongalli A's real Stand in that dream!{\i0}
+Dialogue: 9,0:11:36.18,0:11:39.26,Default,,0,0,0,,{\i1}They prepared for this moment.{\i0}
+Dialogue: 9,0:11:39.39,0:11:40.68,Default,,0,0,0,,{\i1}The moment{\i0}
+Dialogue: 9,0:11:40.89,0:11:43.31,Default,,0,0,0,,{\i1}when I have no choice left\Nbut to use my Stand{\i0}
+Dialogue: 9,0:11:43.52,0:11:44.89,Default,,0,0,0,,{\i1}and sacrifice myself for my daughter!{\i0}
+Dialogue: 9,0:11:45.81,0:11:46.64,Default,,0,0,0,,{\i1}Their target{\i0}
+Dialogue: 9,0:11:47.48,0:11:49.06,Default,,0,0,0,,{\i1}was me from the very beginning!{\i0}
+Dialogue: 9,0:11:49.15,0:11:50.86,Default,,0,0,0,,Time is about to resume. Jolyne!
+Dialogue: 9,0:11:58.28,0:12:00.66,Default,,0,0,0,,You're one step behind.
+Dialogue: 9,0:12:00.87,0:12:03.99,Default,,0,0,0,,Jotaro Kujo, I've been waiting for this moment
+Dialogue: 9,0:12:04.32,0:12:05.70,Default,,0,0,0,,for a long time!
+Dialogue: 9,0:12:15.30,0:12:18.05,Default,,0,0,0,,He was waiting for me all along.
+Dialogue: 9,0:12:18.18,0:12:19.26,Default,,0,0,0,,Perfect.
+Dialogue: 9,0:12:19.47,0:12:24.52,Default,,0,0,0,,I finally got what I wanted\nfrom Jotaro, the invincible Stand user.
+Dialogue: 9,0:12:24.65,0:12:27.73,Default,,0,0,0,,This is the power of Whitesnake!
+Dialogue: 9,0:12:30.06,0:12:31.44,Default,,0,0,0,,Those bullets!
+Dialogue: 9,0:12:36.53,0:12:37.70,Default,,0,0,0,,The Stand!
+Dialogue: 9,0:12:44.03,0:12:44.95,Default,,0,0,0,,But...
+Dialogue: 9,0:12:45.08,0:12:47.75,Default,,0,0,0,,I thought we only saw his Stand\nin our dream!
+Dialogue: 9,0:12:47.96,0:12:50.67,Default,,0,0,0,,While he's reloading, I'll...
+Dialogue: 9,0:13:16.36,0:13:18.57,Default,,0,0,0,,I can see the sea! We made it!
+Dialogue: 9,0:13:19.45,0:13:20.65,Default,,0,0,0,,Go on without me.
+Dialogue: 9,0:13:21.61,0:13:22.78,Default,,0,0,0,,I'll catch up with you.
+Dialogue: 9,0:13:23.49,0:13:24.99,Default,,0,0,0,,Did he really
+Dialogue: 9,0:13:25.70,0:13:26.70,Default,,0,0,0,,shoot you?
+Dialogue: 9,0:13:27.70,0:13:31.62,Default,,0,0,0,,Listen to me.\NA Stand user only controls one Stand.
+Dialogue: 9,0:13:31.71,0:13:34.17,Default,,0,0,0,,So there are two enemies here:
+Dialogue: 9,0:13:35.94,0:13:39.30,Default,,0,0,0,,Jongalli A\Nand the one who tried to dissolve us.
+Dialogue: 9,0:13:46.03,0:13:47.45,Default,,0,0,0,,Keep going alone.
+Dialogue: 9,0:13:47.54,0:13:49.64,Default,,0,0,0,,Take the pendant.
+Dialogue: 9,0:13:49.73,0:13:50.68,Default,,0,0,0,,Don't lose it.
+Dialogue: 9,0:13:51.81,0:13:54.36,Default,,0,0,0,,There's a transmitter inside it.
+Dialogue: 9,0:13:54.61,0:13:56.40,Default,,0,0,0,,It can track your location.
+Dialogue: 9,0:13:57.27,0:14:02.53,Default,,0,0,0,,The submarine follows its GPS signal.
+Dialogue: 9,0:14:03.11,0:14:05.37,Default,,0,0,0,,You understand what I'm saying, right?
+Dialogue: 9,0:14:06.12,0:14:09.45,Default,,0,0,0,,All you have to do is get to the beach.\NThe submarine will find you.
+Dialogue: 9,0:14:10.12,0:14:14.83,Default,,0,0,0,,And with it, the Speedwagon Foundation.
+Dialogue: 9,0:14:18.46,0:14:21.26,Default,,0,0,0,,If you've understood, then go, Jolyne.
+Dialogue: 9,0:14:22.13,0:14:23.22,Default,,0,0,0,,The pendant...
+Dialogue: 9,0:14:23.93,0:14:25.68,Default,,0,0,0,,But just now, you...
+Dialogue: 9,0:14:25.89,0:14:27.89,Default,,0,0,0,,No. You couldn't have...
+Dialogue: 9,0:14:28.68,0:14:32.39,Default,,0,0,0,,I never stopped thinking about you.
+Dialogue: 9,0:14:39.74,0:14:40.86,Default,,0,0,0,,What's going on?
+Dialogue: 9,0:14:41.07,0:14:42.82,Default,,0,0,0,,Your belly... You're not...
+Dialogue: 9,0:14:43.45,0:14:45.07,Default,,0,0,0,,No! Why?
+Dialogue: 9,0:14:45.57,0:14:47.07,Default,,0,0,0,,Go, Jolyne.
+Dialogue: 9,0:14:47.16,0:14:49.03,Default,,0,0,0,,It's just a little blood.
+Dialogue: 9,0:14:49.12,0:14:50.54,Default,,0,0,0,,I'll catch up with you.
+Dialogue: 9,0:14:50.67,0:14:51.54,Default,,0,0,0,,Liar!
+Dialogue: 9,0:14:52.75,0:14:54.67,Default,,0,0,0,,Just now, you sacrificed yourself
+Dialogue: 9,0:14:54.88,0:14:57.00,Default,,0,0,0,,and the enemy managed\nto take something from you.
+Dialogue: 9,0:14:57.54,0:15:00.46,Default,,0,0,0,,That's why you couldn't\Ndodge the bullets, right?
+Dialogue: 9,0:15:01.09,0:15:02.17,Default,,0,0,0,,What did he take from you?
+Dialogue: 9,0:15:03.26,0:15:04.93,Default,,0,0,0,,Your Stand?
+Dialogue: 9,0:15:07.26,0:15:08.51,Default,,0,0,0,,Jolyne!
+Dialogue: 9,0:15:15.52,0:15:16.44,Default,,0,0,0,,What?
+Dialogue: 9,0:15:18.77,0:15:20.61,Default,,0,0,0,,It's...
+Dialogue: 9,0:15:20.74,0:15:22.19,Default,,0,0,0,,These strings!
+Dialogue: 9,0:15:22.28,0:15:23.11,Default,,0,0,0,,Since when?
+Dialogue: 9,0:15:24.44,0:15:25.70,Default,,0,0,0,,Take this!
+Dialogue: 9,0:15:32.33,0:15:33.54,Default,,0,0,0,,Shut up.
+Dialogue: 9,0:15:34.08,0:15:38.25,Default,,0,0,0,,We'll get out through there and go to the beach.
+Dialogue: 9,0:15:38.83,0:15:41.21,Default,,0,0,0,,Stay out of this. Understood?
+Dialogue: 9,0:15:41.75,0:15:43.42,Default,,0,0,0,,You...
+Dialogue: 9,0:15:43.92,0:15:46.51,Default,,0,0,0,,{\i1}When did she acquire\Na Stand power like that?{\i0}
+Dialogue: 9,0:15:46.72,0:15:48.30,Default,,0,0,0,,{\i1}A power of this strength{\i0}
+Dialogue: 9,0:15:48.39,0:15:51.68,Default,,0,0,0,,{\i1}should have been reported\nbefore she was sentenced!{\i0}
+Dialogue: 9,0:15:52.89,0:15:56.02,Default,,0,0,0,,Very well. I'm putting my weapon down.
+Dialogue: 9,0:16:06.57,0:16:09.41,Default,,0,0,0,,I didn't ask you to put your weapon down.
+Dialogue: 9,0:16:09.62,0:16:11.74,Default,,0,0,0,,I was just looking for the best angle.
+Dialogue: 9,0:16:11.83,0:16:14.87,Default,,0,0,0,,The best angle\Nto beat you to a pulp.
+Dialogue: 9,0:16:15.58,0:16:19.33,Default,,0,0,0,,I like it when your chin\Ntilts slightly to the right.
+Dialogue: 9,0:16:19.83,0:16:24.71,Default,,0,0,0,,{\i1}I should have finished her off first\ninstead of Jotaro!{\i0}
+Dialogue: 9,0:16:25.26,0:16:27.76,Default,,0,0,0,,{\i1}I was wrong\Nto go after Jotaro first!{\i0}
+Dialogue: 9,0:16:28.26,0:16:31.55,Default,,0,0,0,,{\i1}Does Whitesnake know about this?{\i0}
+Dialogue: 9,0:16:32.05,0:16:33.68,Default,,0,0,0,,{\i1}Jolyne Kujo.{\i0}
+Dialogue: 9,0:16:33.89,0:16:36.68,Default,,0,0,0,,{\i1}Without a doubt,{\i0}
+Dialogue: 9,0:16:36.77,0:16:38.27,Default,,0,0,0,,{\i1}she's a Joestar!{\i0}
+Dialogue: 9,0:16:42.06,0:16:43.23,Default,,0,0,0,,Jolyne.
+Dialogue: 9,0:16:43.32,0:16:46.44,Default,,0,0,0,,Earlier, in that dream,
+Dialogue: 9,0:16:47.02,0:16:49.40,Default,,0,0,0,,{\i1}you told me\Nyou would stay in this prison{\i0}
+Dialogue: 9,0:16:49.91,0:16:52.07,Default,,0,0,0,,{\i1}for a child\Nyou had just met.{\i0}
+Dialogue: 9,0:16:52.38,0:16:55.08,Default,,0,0,0,,He grabbed my arm\nwith despair in his eyes.
+Dialogue: 9,0:16:55.29,0:16:57.16,Default,,0,0,0,,I'm staying inside.
+Dialogue: 9,0:16:57.29,0:16:59.71,Default,,0,0,0,,{\i1}It was just a dream.{\i0}
+Dialogue: 9,0:17:01.38,0:17:02.25,Default,,0,0,0,,But...
+Dialogue: 9,0:17:09.88,0:17:10.80,Default,,0,0,0,,Dad!
+Dialogue: 9,0:17:10.93,0:17:13.55,Default,,0,0,0,,Good Lord,\Nwe're right next to the beach!
+Dialogue: 9,0:17:13.89,0:17:16.60,Default,,0,0,0,,Dad!
+Dialogue: 9,0:17:18.06,0:17:20.81,Default,,0,0,0,,Find them!
+Dialogue: 9,0:17:21.02,0:17:22.65,Default,,0,0,0,,We have permission to fire!
+Dialogue: 9,0:17:22.86,0:17:24.36,Default,,0,0,0,,The inmate is armed.
+Dialogue: 9,0:17:24.94,0:17:26.65,Default,,0,0,0,,We can shoot to kill!
+Dialogue: 9,0:17:29.01,0:17:31.36,Default,,0,0,0,,Where is he? I'm at the beach.
+Dialogue: 9,0:17:31.61,0:17:34.53,Default,,0,0,0,,Where is that organization\nyou're friends with,
+Dialogue: 9,0:17:34.62,0:17:37.16,Default,,0,0,0,,the Speedwagon Foundation?
+Dialogue: 9,0:17:37.37,0:17:38.62,Default,,0,0,0,,I know nothing about it,
+Dialogue: 9,0:17:39.12,0:17:42.04,Default,,0,0,0,,but if they're really sending us\na submarine,
+Dialogue: 9,0:17:42.75,0:17:45.00,Default,,0,0,0,,they must have access\Nto incredible technology
+Dialogue: 9,0:17:45.09,0:17:47.00,Default,,0,0,0,,and enormous funding!
+Dialogue: 9,0:17:47.34,0:17:50.38,Default,,0,0,0,,Your gunshot wound...
+Dialogue: 9,0:17:50.47,0:17:55.39,Default,,0,0,0,,The Foundation must be able to give you\nthe medical care you need!
+Dialogue: 9,0:17:55.60,0:17:57.18,Default,,0,0,0,,Where's that submarine?
+Dialogue: 9,0:17:57.68,0:17:59.56,Default,,0,0,0,,Where is it?
+Dialogue: 9,0:18:11.95,0:18:14.65,Default,,0,0,0,,Everything you said was true.
+Dialogue: 9,0:18:14.80,0:18:17.49,Default,,0,0,0,,The submarine is here!
+Dialogue: 9,0:18:17.62,0:18:18.70,Default,,0,0,0,,We're saved...
+Dialogue: 9,0:18:35.26,0:18:37.93,Default,,0,0,0,,What the hell are you doing?
+Dialogue: 9,0:18:40.02,0:18:41.06,Default,,0,0,0,,You can't...
+Dialogue: 9,0:18:41.41,0:18:43.99,Default,,0,0,0,,{\i1}No, this can't be.{\i0}
+Dialogue: 9,0:18:44.26,0:18:46.40,Default,,0,0,0,,{\i1}It's impossible.{\i0}
+Dialogue: 9,0:18:46.53,0:18:49.58,Default,,0,0,0,,{\i1}He got shot,\Nbut it only grazed him.{\i0}
+Dialogue: 9,0:18:49.80,0:18:51.74,Default,,0,0,0,,{\i1}It's not a fatal wound.{\i0}
+Dialogue: 9,0:18:53.45,0:18:55.91,Default,,0,0,0,,{\i1}It can't be a fatal wound.{\i0}
+Dialogue: 9,0:18:56.12,0:18:56.82,Default,,0,0,0,,{\i1}But then...{\i0}
+Dialogue: 9,0:18:58.07,0:19:00.04,Default,,0,0,0,,{\i1}But his heart...{\i0}
+Dialogue: 9,0:19:01.29,0:19:04.62,Default,,0,0,0,,{\i1}why isn't it beating?{\i0}
+Dialogue: 9,0:19:12.05,0:19:13.52,Default,,0,0,0,,{\i1}Now I know.{\i0}
+Dialogue: 9,0:19:13.79,0:19:15.80,Default,,0,0,0,,{\i1}The Joestar blood runs in you.{\i0}
+Dialogue: 9,0:19:16.01,0:19:19.00,Default,,0,0,0,,{\i1}With your strength of conviction, Jolyne,{\i0}
+Dialogue: 9,0:19:19.23,0:19:21.56,Default,,0,0,0,,{\i1}I know you'll make it through.{\i0}
+Dialogue: 9,0:19:56.55,0:19:57.76,Default,,0,0,0,,They're here!
+Dialogue: 9,0:19:57.97,0:19:59.74,Default,,0,0,0,,Something's moving on the other side!
+Dialogue: 9,0:20:00.26,0:20:01.14,Default,,0,0,0,,Watch out for his weapon!
+Dialogue: 9,0:20:02.41,0:20:04.98,Default,,0,0,0,,No, I'm not on the other side.
+Dialogue: 9,0:20:05.47,0:20:06.94,Default,,0,0,0,,I'm here,
+Dialogue: 9,0:20:07.15,0:20:08.69,Default,,0,0,0,,if you're looking for me.
+Dialogue: 9,0:20:11.65,0:20:12.65,Default,,0,0,0,,You!
+Dialogue: 9,0:20:12.78,0:20:13.78,Default,,0,0,0,,Wait, don't shoot!
+Dialogue: 9,0:20:14.28,0:20:15.53,Default,,0,0,0,,Her hands are up.
+Dialogue: 9,0:20:15.66,0:20:17.40,TiretsDefault,,786,0,0,, But...\N Don't shoot!
+Dialogue: 9,0:20:17.49,0:20:18.49,Default,,0,0,0,,{\an8}She's not armed.
+Dialogue: 9,0:20:19.57,0:20:20.74,Default,,0,0,0,,{\an8}Are you turning yourself in?
+Dialogue: 9,0:20:23.70,0:20:25.62,Default,,0,0,0,,There's another man.
+Dialogue: 9,0:20:26.12,0:20:28.61,Default,,0,0,0,,A tall one, who came to visit her.
+Dialogue: 9,0:20:28.75,0:20:30.88,Default,,0,0,0,,He can't be far. Find him!
+Dialogue: 9,0:20:34.38,0:20:36.92,Default,,0,0,0,,So that's where you were.
+Dialogue: 9,0:20:41.85,0:20:44.85,Default,,0,0,0,,{\i1}Why?{\i0}
+Dialogue: 9,0:20:45.45,0:20:47.00,Default,,0,0,0,,Why didn't you run?
+Dialogue: 9,0:20:47.27,0:20:50.48,Default,,0,0,0,,I'm sorry,\Nbut your father is already dead.
+Dialogue: 9,0:20:52.73,0:20:56.32,Default,,0,0,0,,His spirit was stolen by that substance.
+Dialogue: 9,0:20:56.82,0:20:59.45,Default,,0,0,0,,You barely survived!
+Dialogue: 9,0:20:59.58,0:21:02.57,Default,,0,0,0,,Why didn't you leave?\NWhy?
+Dialogue: 9,0:21:03.83,0:21:06.08,Default,,0,0,0,,The murderer fled\Ntoward the inside of the prison.
+Dialogue: 9,0:21:06.33,0:21:08.08,Default,,0,0,0,,Not outside, inside!
+Dialogue: 9,0:21:09.29,0:21:12.92,Default,,0,0,0,,{\i1}The murderer planned to steal my father's Stand\nby giving it a physical form.{\i0}
+Dialogue: 9,0:21:13.13,0:21:14.00,Default,,0,0,0,,{\i1}That's his power!{\i0}
+Dialogue: 9,0:21:14.13,0:21:18.17,Default,,0,0,0,,Then he withdrew\Nto the inside of the prison.
+Dialogue: 9,0:21:18.26,0:21:19.88,Default,,0,0,0,,He won't leave this place.
+Dialogue: 9,0:21:20.01,0:21:22.84,Default,,0,0,0,,He's within these walls!
+Dialogue: 9,0:21:22.97,0:21:26.43,Default,,0,0,0,,You're trying to get his power back?
+Dialogue: 9,0:21:26.52,0:21:28.77,Default,,0,0,0,,You think that will\nbring him back to life?
+Dialogue: 9,0:21:28.90,0:21:31.02,Default,,0,0,0,,That's exactly why I'm coming back.
+Dialogue: 9,0:21:32.06,0:21:36.57,Default,,0,0,0,,Sorry to tell you,\Nbut a corpse only knows how to rot.
+Dialogue: 9,0:21:36.78,0:21:39.65,Default,,0,0,0,,That bone I gave you\nwas my mother's.
+Dialogue: 9,0:21:39.74,0:21:41.57,Default,,0,0,0,,That substance stole her power
+Dialogue: 9,0:21:41.70,0:21:42.82,Default,,0,0,0,,and she died of it.
+Dialogue: 9,0:21:44.24,0:21:45.03,Default,,0,0,0,,I see.
+Dialogue: 9,0:21:46.58,0:21:49.75,Default,,0,0,0,,My mother was an inmate here\nand gave birth to me here.
+Dialogue: 9,0:21:50.25,0:21:52.79,Default,,0,0,0,,I grew up hiding within these walls.
+Dialogue: 9,0:21:53.38,0:21:55.42,Default,,0,0,0,,What's your name?
+Dialogue: 9,0:21:55.55,0:21:58.34,Default,,0,0,0,,My name is Emporio.
+Dialogue: 9,0:21:58.47,0:21:59.80,Default,,0,0,0,,Emporio,
+Dialogue: 9,0:22:00.01,0:22:02.47,Default,,0,0,0,,your mother's bone saved my life.
+Dialogue: 9,0:22:03.18,0:22:04.09,Default,,0,0,0,,Thank you.
+Dialogue: 9,0:22:11.31,0:22:12.52,Default,,0,0,0,,But...
+Dialogue: 9,0:22:13.02,0:22:15.40,Default,,0,0,0,,even though I can't explain it,\NI'm certain of it:
+Dialogue: 9,0:22:15.61,0:22:18.15,Default,,0,0,0,,my father isn't dead.
+Dialogue: 9,0:22:18.78,0:22:21.19,Default,,0,0,0,,If I can get his Stand back,\Nhe'll come back to life.
+Dialogue: 9,0:22:22.24,0:22:23.41,Default,,0,0,0,,That's why
+Dialogue: 9,0:22:24.11,0:22:25.12,Default,,0,0,0,,I'm coming back!
+Dialogue: 9,0:22:34.12,0:22:35.17,Default,,0,0,0,,You did it.
+Dialogue: 9,0:22:36.17,0:22:39.88,Default,,0,0,0,,You finally acquired that powerful Stand\nthat can stop time!
+Dialogue: 9,0:22:40.80,0:22:44.84,Default,,0,0,0,,Yes, thanks to you, Jongalli A.
+Dialogue: 9,0:22:45.34,0:22:47.80,Default,,0,0,0,,We make a great team, the two of us.
+Dialogue: 9,0:22:49.70,0:22:52.48,Default,,0,0,0,,Take me back to the men's prison.
+Dialogue: 9,0:22:52.61,0:22:54.13,Default,,0,0,0,,I got distracted.
+Dialogue: 9,0:22:56.56,0:23:00.03,Default,,0,0,0,,By the way, have you seen my gun?
+Dialogue: 9,0:23:00.24,0:23:01.03,Default,,0,0,0,,It's right here.
+Dialogue: 9,0:23:10.45,0:23:14.04,Default,,0,0,0,,You're the only one who knows who I am.
+Dialogue: 9,0:23:14.62,0:23:18.01,Default,,0,0,0,,You'll be my scapegoat\nfor the guards' murders.
+Dialogue: 9,0:23:18.17,0:23:20.96,Default,,0,0,0,,Everything's going to go very smoothly now.
+Dialogue: 9,0:23:21.59,0:23:24.19,Default,,0,0,0,,"Someone who communicates\nwith someone else."
+Dialogue: 9,0:23:24.33,0:23:28.43,Default,,0,0,0,,Jotaro said that was\na wonderful thing.
+Dialogue: 9,0:23:28.59,0:23:30.26,Default,,0,0,0,,I agree.
+Dialogue: 9,0:23:30.76,0:23:32.93,Default,,0,0,0,,And here's a way to do that.

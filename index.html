@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JoJo — Sous-titres anglais</title>
+<style>
+* { box-sizing: border-box; }
+:root { font-family: Inter, "Segoe UI", system-ui, sans-serif; }
+body.day, body.night {
+  --progress-grad: linear-gradient(90deg, #f06192, #fbbf24, #4ade80, #38bdf8, #a78bfa);
+  --progress-glow: rgba(240, 97, 146, .6);
+  --acc: #7c3aed; --acc-2: #a78bfa; --acc-soft: rgba(147, 90, 255, .14);
+  --date-bg: linear-gradient(150deg, #8b5cf6, #6d28d9); --date-ink: #f5f2ff;
+  --date-glow: 0 6px 18px rgba(124, 58, 237, .35);
+}
+body.night {
+  --bg-base: #2e2650; --ink: #f0ecfa; --muted: #b6a8d8;
+  --bg-image:
+    radial-gradient(ellipse 60% 42% at 20% 10%, rgba(178,128,255,.55), transparent 62%),
+    radial-gradient(ellipse 50% 36% at 85% 20%, rgba(125,155,255,.5), transparent 62%),
+    radial-gradient(ellipse 55% 40% at 78% 92%, rgba(240,140,255,.4), transparent 62%),
+    radial-gradient(ellipse 45% 32% at 12% 88%, rgba(100,130,255,.38), transparent 60%),
+    linear-gradient(160deg, #35295e 0%, #3d2f6b 50%, #312654 100%);
+  --surface: rgba(46,36,74,.66); --surface-kpi: rgba(52,42,84,.6);
+  --card-border: rgba(230,220,255,.22); --border-strong: rgba(230,220,255,.5);
+  --inner-light: inset 0 1px 0 rgba(255,255,255,.12);
+  --btn-bg: rgba(230,220,255,.12); --btn-hover: rgba(230,220,255,.24); --btn-ink: #f0ecfa; --btn-border: rgba(230,220,255,.4);
+  --shadow-md: 0 2px 6px rgba(15,8,40,.25), 0 16px 40px rgba(15,8,40,.4);
+  --halo: 0 0 0 1px rgba(230,220,255,.24), 0 14px 44px rgba(15,8,40,.5), 0 0 30px rgba(147,90,255,.28);
+  --topbar-bg: rgba(41,32,72,.6); --topbar-border: rgba(230,220,255,.16);
+  --badge-bg: rgba(230,220,255,.10); --badge-border: rgba(230,220,255,.28);
+  --past-ink: rgba(240,236,250,.4); --spot: rgba(200,180,255,.16);
+  --win-bar-grad: linear-gradient(90deg, #8b5cf6, #38bdf8);
+}
+body.day {
+  --bg-base: #ece7fb; --ink: #2b2340; --muted: #7d729c;
+  --bg-image:
+    radial-gradient(ellipse 55% 38% at 15% 10%, rgba(167,120,255,.5), transparent 62%),
+    radial-gradient(ellipse 45% 32% at 88% 15%, rgba(96,165,250,.42), transparent 60%),
+    radial-gradient(ellipse 50% 35% at 80% 90%, rgba(232,121,249,.38), transparent 62%),
+    radial-gradient(ellipse 40% 28% at 10% 85%, rgba(129,140,248,.35), transparent 60%),
+    linear-gradient(160deg, #f7f4ff 0%, #ebe5fa 100%);
+  --surface: rgba(255,253,255,.78); --surface-kpi: rgba(255,253,255,.7);
+  --card-border: rgba(255,255,255,.95); --border-strong: rgba(43,35,64,.28);
+  --inner-light: inset 0 1px 0 rgba(255,255,255,.9);
+  --btn-bg: rgba(255,255,255,.65); --btn-hover: #ffffff; --btn-ink: #2b2340; --btn-border: rgba(43,35,64,.22);
+  --shadow-md: 0 2px 6px rgba(70,50,140,.06), 0 16px 40px rgba(70,50,140,.14);
+  --halo: 0 0 0 1px rgba(255,255,255,.95), 0 14px 44px rgba(70,50,140,.18), 0 0 28px rgba(147,90,255,.2);
+  --topbar-bg: rgba(247,244,255,.68); --topbar-border: rgba(43,35,64,.1);
+  --badge-bg: rgba(124,58,237,.07); --badge-border: rgba(124,58,237,.22);
+  --past-ink: rgba(43,35,64,.38); --spot: rgba(147,90,255,.1);
+  --win-bar-grad: linear-gradient(90deg, #7c3aed, #38bdf8);
+}
+body { margin: 0; padding: 0 0 64px; min-height: 100vh; min-height: 100svh; overscroll-behavior-y: none;
+  color: var(--ink); background-color: var(--bg-base); background-image: var(--bg-image);
+  transition: background-color .45s ease, color .45s ease; }
+@media (hover: hover) and (pointer: fine) { body { background-attachment: fixed; } }
+.orbs { position: fixed; inset: 0; pointer-events: none; z-index: 0; }
+.orbs i { position: absolute; border-radius: 50%; filter: blur(70px); opacity: .55; }
+.orbs .o1 { width: 380px; height: 380px; left: -100px; top: 6%; background: var(--acc-soft); }
+.orbs .o2 { width: 300px; height: 300px; right: -80px; top: 36%; background: var(--spot); }
+.orbs .o3 { width: 340px; height: 340px; left: 28%; bottom: -100px; background: var(--acc-soft); }
+.topbar { position: sticky; top: 0; z-index: 20; background: var(--topbar-bg);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid var(--topbar-border); }
+.topbar-inner { max-width: 980px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 18px; gap: 12px; flex-wrap: wrap; }
+.tb-brand { font-size: 1.05rem; letter-spacing: .3px; font-weight: 700; }
+.tb-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.lang-btn { display: inline-flex; align-items: center; gap: 7px; padding: 7px 13px; border-radius: 999px;
+  border: 1px solid var(--btn-border); background: var(--btn-bg); color: var(--btn-ink); cursor: pointer;
+  font-family: inherit; font-size: .92rem; transition: background .18s, transform .18s, box-shadow .18s; }
+.lang-btn:hover { background: var(--btn-hover); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.lang-btn.active { outline: 2px solid var(--acc-2); outline-offset: 1px; font-weight: 700; }
+.flag { width: 21px; height: 14px; border-radius: 2px; display: block; box-shadow: 0 0 0 1px rgba(0,0,0,.15); }
+.page { position: relative; z-index: 1; max-width: 980px; margin: 0 auto; padding: 22px 18px 10px; }
+.hero { background: var(--surface); border: 1px solid var(--card-border); border-radius: 20px;
+  box-shadow: var(--shadow-md), var(--inner-light);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  padding: 26px 26px 22px; margin-top: 18px; position: relative; overflow: hidden; }
+.hero::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
+  background: linear-gradient(90deg, var(--acc-2), var(--acc)); }
+.hero h1 { margin: 0 0 8px; font-size: 1.65rem; }
+.hero p { margin: 0; color: var(--muted); font-style: italic; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; margin: 18px 0; }
+.kpi { position: relative; overflow: hidden; background: var(--surface-kpi); border: 1px solid var(--card-border); border-radius: 18px;
+  box-shadow: var(--shadow-md), var(--inner-light); padding: 16px 18px; text-align: center;
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  transition: transform .18s, box-shadow .18s; }
+.kpi::after { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px; background: linear-gradient(90deg, var(--acc-2), var(--acc)); }
+.kpi:hover { transform: translateY(-3px); box-shadow: var(--halo); }
+.kpi .label { font-size: .78rem; text-transform: uppercase; letter-spacing: 1.4px; color: var(--muted); font-weight: 600; }
+.kpi .value { font-size: 2rem; font-weight: 800; margin: 4px 0 2px;
+  background: linear-gradient(135deg, #a78bfa, #7c3aed, #38bdf8);
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.kpi .sub { font-size: .85rem; color: var(--muted); }
+.win { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--card-border); border-radius: 18px;
+  box-shadow: var(--shadow-md), var(--inner-light); padding: 18px 20px; margin-bottom: 14px;
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  transition: transform .2s, box-shadow .2s; }
+.win::after { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px; background: linear-gradient(90deg, var(--acc-2), var(--acc)); }
+.win-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; }
+.win-title { font-size: 1.06rem; font-weight: 700; }
+.win-sub { color: var(--muted); font-size: .9rem; margin: 6px 0 10px; }
+.win-bar { height: 9px; border-radius: 999px; background: var(--badge-bg); border: 1px solid var(--badge-border); overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.12); }
+.win-bar i { display: block; height: 100%; background: var(--win-bar-grad); border-radius: 999px;
+  box-shadow: 0 0 10px rgba(124,58,237,.4); }
+.section { margin: 26px 0; }
+.section-title { display: flex; align-items: center; gap: 10px; font-size: 1.2rem; margin: 0 0 14px; font-weight: 700; }
+.section-title::after { content: ""; flex: 1; height: 1px;
+  background: linear-gradient(90deg, var(--badge-border), transparent); }
+.ep { display: flex; gap: 16px; background: var(--surface); border: 1px solid var(--card-border);
+  border-radius: 18px; box-shadow: var(--shadow-md), var(--inner-light); padding: 16px 18px; margin-bottom: 12px;
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  transition: transform .2s, box-shadow .2s; align-items: stretch; position: relative; overflow: hidden; }
+.ep::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
+  background: linear-gradient(90deg, var(--acc-2), var(--acc)); }
+.ep:hover { transform: translateY(-3px) scale(1.005); box-shadow: var(--halo); }
+.ep.done::before { background: linear-gradient(90deg, #bbf7d0, #4ade80, #16a34a); filter: saturate(1.35) brightness(1.1); }
+.ep.miss::before { background: linear-gradient(90deg, #fde68a, #f59e0b, #d97706); filter: saturate(1.3) brightness(1.08); }
+.ep.done { opacity: .68; filter: saturate(.55); }
+.ep.done:hover { opacity: 1; filter: saturate(1); }
+.ep-num { flex: 0 0 74px; background: var(--date-bg); color: var(--date-ink); border-radius: 14px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 8px 4px;
+  box-shadow: var(--date-glow), inset 0 1px 0 rgba(255,255,255,.35); }
+.ep-num .d { font-size: 1.6rem; font-weight: 800; line-height: 1; }
+.ep-num .m { font-size: .68rem; text-transform: uppercase; letter-spacing: 1.6px; margin-top: 3px; font-weight: 600; }
+.ep-body { flex: 1; min-width: 0; }
+.ep-title { font-size: 1.02rem; font-weight: 700; margin-bottom: 3px; }
+.ep-where { color: var(--muted); font-size: .88rem; margin-bottom: 9px; }
+.ep-meta { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; }
+.badge { display: inline-flex; align-items: center; gap: 5px; font-size: .78rem; padding: 4px 11px; font-weight: 600;
+  border-radius: 999px; background: var(--badge-bg); border: 1px solid var(--badge-border);
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.badge.wip { border-color: var(--acc-2); color: var(--acc-2); font-weight: 700;
+  box-shadow: 0 0 12px rgba(147,90,255,.25); }
+.badge.ok { border-color: #4ade80; color: #16a34a; }
+.badge.todo { color: var(--muted); }
+.badge.miss { border-color: #f59e0b; color: #d97706; }
+.ep.past .ep-title, .ep.past .ep-where { color: var(--past-ink); }
+.stamp { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%) rotate(-22deg);
+  border: 3px solid #ef4444; color: #ef4444; font-weight: 900; font-size: 1.6rem; letter-spacing: .18em;
+  padding: 4px 18px; border-radius: 6px; opacity: .5; pointer-events: none; text-transform: uppercase; z-index: 2;
+  box-shadow: 0 0 0 1px rgba(239,68,68,.25) inset; background: rgba(239,68,68,.06); }
+.dl { display: inline-flex; align-items: center; gap: 6px; font-family: inherit; font-size: .82rem; font-weight: 700;
+  color: #fff; background: linear-gradient(135deg, #8b5cf6, #7c3aed); border: none; cursor: pointer;
+  padding: 7px 14px; border-radius: 999px; text-decoration: none;
+  box-shadow: 0 4px 14px rgba(124,58,237,.35), inset 0 1px 0 rgba(255,255,255,.3); transition: filter .18s, transform .18s; }
+.dl:hover { filter: brightness(1.1); transform: translateY(-1px); }
+.wipcard { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--acc-2); border-radius: 18px;
+  box-shadow: var(--shadow-md), var(--inner-light), 0 0 26px rgba(139,92,246,.35); padding: 20px 22px; margin-bottom: 14px;
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+.wipcard::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
+  background: linear-gradient(90deg, var(--acc-2), var(--acc), var(--acc-2)); filter: saturate(1.3) brightness(1.12); }
+.chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+.chip { position: relative; overflow: hidden; background: var(--surface-kpi); border: 1px solid var(--card-border);
+  border-radius: 14px; padding: 12px 8px; text-align: center;
+  box-shadow: var(--shadow-md); opacity: .5; filter: saturate(.25); }
+.chip .n { font-weight: 800; font-size: 1.05rem; }
+.chip .l { font-size: .72rem; color: var(--muted); margin-top: 2px; }
+.botbar { position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: var(--topbar-bg);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-top: 1px solid var(--topbar-border); }
+.botbar-inner { max-width: 980px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 18px; gap: 12px; flex-wrap: wrap; font-size: .9rem; }
+.bb-ver { color: var(--muted); }
+#progress { position: absolute; left: 0; bottom: -1px; height: 3px; width: 0%; background: var(--progress-grad);
+  border-radius: 999px; transition: width .18s linear; box-shadow: var(--progress-glow);
+  filter: saturate(1.3) brightness(1.12); will-change: width; }
+@media (max-width: 520px) { .ep { flex-direction: column; } .ep-num { flex-direction: row; gap: 8px; }
+  .hero h1 { font-size: 1.3rem; } .chips { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); } }
+</style>
+</head>
+<body class="night">
+<script>try{if(localStorage.getItem("jojo-theme")==="day")document.body.className="day";}catch(e){}</script>
+<div class="orbs" aria-hidden="true"><i class="o1"></i><i class="o2"></i><i class="o3"></i></div>
+<header class="topbar"><div class="topbar-inner">
+<span class="tb-brand" data-fr="🎬 JoJo — Sous-titres" data-en="🎬 JoJo — Subtitles">🎬 JoJo — Sous-titres</span>
+<div class="tb-actions">
+<button class="lang-btn active" id="btn-fr" onclick="switchLang('fr')"><svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#0055A4"/><rect x="1" width="1" height="2" fill="#ffffff"/><rect x="2" width="1" height="2" fill="#EF4135"/></svg>FR</button>
+<button class="lang-btn" id="btn-en" onclick="switchLang('en')"><svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#ffffff" stroke-width="6"/><path d="M30,0 V30 M0,15 H60" stroke="#ffffff" stroke-width="10"/><path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="3.5"/></svg>EN</button>
+<button class="lang-btn" id="btn-theme" onclick="toggleTheme()"><span id="btn-theme-ico">☀️</span> <span data-fr="Thème" data-en="Theme">Thème</span></button>
+</div></div><i id="progress" aria-hidden="true"></i></header>
+<main class="page">
+<div id="app"></div>
+</main>
+<footer class="botbar"><div class="botbar-inner">
+<span data-fr="🎬 Stone Ocean — Sous-titres anglais" data-en="🎬 Stone Ocean — English subtitles">🎬 Stone Ocean — Sous-titres anglais</span>
+<span class="bb-ver">v1.0 · 2026</span>
+</div></footer>
+<script>
+(function(){
+"use strict";
+/* ===== Données ===== */
+/* s: "done" (traduit, téléchargeable) · "wip" (en cours) · "miss" (fichier perdu, à refaire) · "todo" */
+var EPS = [
+  {n:1,  s:"miss"},
+  {n:2,  s:"done"},{n:3,  s:"done"},{n:4,  s:"done"},{n:5,  s:"done"},
+  {n:6,  s:"done"},{n:7,  s:"done"},{n:8,  s:"done"},{n:9,  s:"done"},
+  {n:10, s:"wip"},
+  {n:11, s:"todo"},{n:12, s:"todo"},{n:13, s:"todo"},{n:14, s:"todo"},
+  {n:15, s:"todo"},{n:16, s:"todo"},{n:17, s:"todo"},{n:18, s:"todo"},
+  {n:19, s:"todo"},{n:20, s:"todo"},{n:21, s:"todo"},{n:22, s:"todo"},
+  {n:23, s:"todo"},{n:24, s:"todo"},{n:25, s:"todo"},{n:26, s:"todo"},
+  {n:27, s:"todo"},{n:28, s:"todo"},{n:29, s:"todo"},{n:30, s:"todo"},
+  {n:31, s:"todo"},{n:32, s:"todo"},{n:33, s:"todo"},{n:34, s:"todo"},
+  {n:35, s:"todo"},{n:36, s:"todo"},{n:37, s:"todo"},{n:38, s:"todo"}
+];
+var L = {
+  fr: { hero:"JoJo's Bizarre Adventure — Stone Ocean",
+        heroSub:"Sous-titres anglais traduits depuis les sous-titres FR de Thomas Chaumont. Un épisode terminé = un fichier .ass téléchargeable.",
+        kDone:"Épisodes terminés", kWip:"En cours", kTodo:"Restants", kNext:"Prochain à traduire",
+        progT:"Progression de la saison", progS:"épisodes archivés sur 38",
+        cur:"✨ Épisode en cours", curD:"Traduction en cours — le téléchargement apparaîtra dès qu'elle sera terminée.",
+        arc:"✓ Épisodes archivés", miss:"⚠️ À refaire", next:"⏳ À venir",
+        eN:"Épisode", stDone:"✓ Terminé", stTodo:"À traduire", stMiss:"Fichier perdu",
+        dl:"⬇ Télécharger le .ass", stamp:"À refaire",
+        chipTodo:"À traduire", chipNext:"Prochain" },
+  en: { hero:"JoJo's Bizarre Adventure — Stone Ocean",
+        heroSub:"English subtitles translated from Thomas Chaumont's French subs. One finished episode = one downloadable .ass file.",
+        kDone:"Completed episodes", kWip:"In progress", kTodo:"Remaining", kNext:"Next to translate",
+        progT:"Season progress", progS:"episodes archived out of 38",
+        cur:"✨ Current episode", curD:"Translation in progress — the download will appear as soon as it's done.",
+        arc:"✓ Archived episodes", miss:"⚠️ To redo", next:"⏳ Upcoming",
+        eN:"Episode", stDone:"✓ Done", stTodo:"To translate", stMiss:"File lost",
+        dl:"⬇ Download .ass", stamp:"To redo",
+        chipTodo:"To translate", chipNext:"Next" }
+};
+var THEME_KEY = "jojo-theme"; var LANG_KEY = "jojo-lang";
+var lang = "fr"; try { lang = localStorage.getItem(LANG_KEY) || "fr"; } catch(e) {}
+function t(k){ return L[lang][k]; }
+function file(n){ return "subs/jojo-stone-ocean-e" + (n < 10 ? "0" : "") + n + ".ass"; }
+window.switchLang = function(l){ lang = l; try { localStorage.setItem(LANG_KEY, l); } catch(e) {} syncLang(); render(); };
+function syncLang(){
+  document.getElementById("btn-fr").classList.toggle("active", lang === "fr");
+  document.getElementById("btn-en").classList.toggle("active", lang === "en");
+  var els = document.querySelectorAll("[data-fr]");
+  for (var i = 0; i < els.length; i++) els[i].textContent = lang === "fr" ? els[i].getAttribute("data-fr") : els[i].getAttribute("data-en");
+  document.documentElement.setAttribute("lang", lang);
+}
+window.toggleTheme = function(){
+  var day = document.body.classList.contains("day");
+  document.body.className = day ? "night" : "day";
+  try { localStorage.setItem(THEME_KEY, day ? "night" : "day"); } catch(e) {}
+  syncTheme();
+};
+function syncTheme(){
+  var day = document.body.classList.contains("day");
+  document.getElementById("btn-theme-ico").textContent = day ? "☀️" : "🌙";
+}
+/* ===== Rendu ===== */
+function epCard(e){
+  var num = (e.n < 10 ? "0" : "") + e.n;
+  var c = '<div class="ep ' + e.s + '">';
+  c += '<div class="ep-num"><span class="d">' + e.n + '</span><span class="m">EP</span></div>';
+  c += '<div class="ep-body">';
+  c += '<div class="ep-title">' + t("eN") + " " + num + '</div>';
+  if (e.s === "done") {
+    c += '<div class="ep-where">Stone Ocean · .ass</div>';
+    c += '<div class="ep-meta"><span class="badge ok">' + t("stDone") + '</span>';
+    c += '<a class="dl" href="' + file(e.n) + '" download>' + t("dl") + '</a></div>';
+  } else if (e.s === "miss") {
+    c += '<div class="ep-where">Stone Ocean</div>';
+    c += '<div class="ep-meta"><span class="badge miss">' + t("stMiss") + '</span></div>';
+    c += '<div class="stamp">' + t("stamp") + '</div>';
+  }
+  c += '</div></div>';
+  return c;
+}
+function chip(n, label){
+  return '<div class="chip"><div class="n">EP ' + (n < 10 ? "0" : "") + n + '</div><div class="l">' + label + '</div></div>';
+}
+function render(){
+  var done = EPS.filter(function(e){ return e.s === "done"; });
+  var wip  = EPS.filter(function(e){ return e.s === "wip"; });
+  var miss = EPS.filter(function(e){ return e.s === "miss"; });
+  var todo = EPS.filter(function(e){ return e.s === "todo"; });
+  var pct = Math.round(done.length / EPS.length * 100);
+  var h = '<div class="hero"><h1>' + t("hero") + '</h1><p>' + t("heroSub") + '</p></div>';
+  h += '<div class="kpis">';
+  h += '<div class="kpi"><div class="label">' + t("kDone") + '</div><div class="value">' + done.length + '/38</div><div class="sub">' + pct + '%</div></div>';
+  h += '<div class="kpi"><div class="label">' + t("kWip") + '</div><div class="value">' + wip.length + '</div><div class="sub">EP 10</div></div>';
+  h += '<div class="kpi"><div class="label">' + t("kTodo") + '</div><div class="value">' + (todo.length + miss.length) + '</div><div class="sub">EP 01, 11–38</div></div>';
+  h += '</div>';
+  h += '<div class="win"><div class="win-head"><span class="win-title">' + t("progT") + '</span><span class="bb-ver">' + done.length + ' ' + t("progS") + '</span></div>';
+  h += '<div class="win-bar"><i style="width:' + pct + '%"></i></div></div>';
+  if (wip.length) {
+    h += '<div class="section"><h2 class="section-title">' + t("cur") + '</h2>';
+    wip.forEach(function(e){
+      h += '<div class="wipcard"><div class="ep-title">' + t("eN") + " " + (e.n < 10 ? "0" : "") + e.n + ' <span class="badge wip">' + t("kWip") + '</span></div>';
+      h += '<div class="win-sub" style="margin-top:8px">' + t("curD") + '</div></div>';
+    });
+    h += '</div>';
+  }
+  if (done.length) {
+    h += '<div class="section"><h2 class="section-title">' + t("arc") + '</h2>';
+    done.slice().reverse().forEach(function(e){ h += epCard(e); });
+    h += '</div>';
+  }
+  if (miss.length) {
+    h += '<div class="section"><h2 class="section-title">' + t("miss") + '</h2>';
+    miss.forEach(function(e){ h += epCard(e); });
+    h += '</div>';
+  }
+  if (todo.length) {
+    h += '<div class="section"><h2 class="section-title">' + t("next") + '</h2><div class="chips">';
+    todo.forEach(function(e, i){
+      var label = (i === 0 && !wip.length) ? t("chipNext") : t("chipTodo");
+      h += chip(e.n, label);
+    });
+    h += '</div></div>';
+  }
+  document.getElementById("app").innerHTML = h;
+}
+/* barre de progression de scroll */
+window.addEventListener("scroll", function(){
+  var d = document.documentElement;
+  var max = d.scrollHeight - d.clientHeight;
+  var p = max > 0 ? (d.scrollTop / max * 100) : 0;
+  document.getElementById("progress").style.width = p + "%";
+}, { passive: true });
+syncTheme(); syncLang(); render();
+})();
+</script>
+</body>
+</html>

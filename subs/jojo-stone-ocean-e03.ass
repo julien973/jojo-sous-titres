@@ -1,0 +1,380 @@
+
+[Script Info]
+; Translation FR > EN of the extracted "FR Complets" track (E03)
+; Original subtitles: Thomas Chaumont
+Title: Jojo's Bizarre Adventure - S05E03 - CUSTOM MULTi 1080p 10bits BluRay x265-GundamGuy
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title Part 6,FOT-Seurat Pro DB,72,&H00FDFDFD,&H000000FF,&H00030304,&H96000000,0,0,0,0,96,100,3,0,1,3.5,0,1,90,90,41,1
+Style: Part 6 Sign,Gandhi Sans,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,-1,0,0,100,100,0,0,1,1.5,1.5,2,120,120,18,1
+Style: ED Lyrics,Hobo Std,55,&H00FFFFFF,&H002728AF,&H96000000,&H00000000,-1,-1,0,0,100,100,2,0,1,4,2,8,10,10,25,1
+Style: Eyecatch - Left,Book Antiqua,75,&H00FFFFFF,&H000000FF,&H3C000000,&H3C5D1A86,0,0,0,0,100,100,3,0,1,3,3,1,90,90,40,1
+Style: Eyecatch - Right,Book Antiqua,75,&H00FFFFFF,&H000000FF,&H3C000000,&H3C601992,0,0,0,0,100,100,3,0,1,3,3,3,90,90,40,1
+Style: Eyecatch - Stats,Designosaur,47,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,3,0,1,1.5,2,9,90,40,25,1
+Style: Part 6 OP1 Japanese,Funkrocker,80,&H00FFFFFF,&H000000FF,&H00000000,&H00010002,0,0,0,0,100,100,1,0,1,5,3,8,10,10,10,1
+Style: Part 6 OP1 English,Funkrocker,75,&H00FFFFFF,&H000000FF,&H00000000,&H00010002,0,0,0,0,100,100,1,0,1,5,3,2,10,10,25,1
+Style: Part 6 Next Episode,FOT-Gospel Std EB,130,&H00C446FE,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,103,100,0,0,1,3,0,2,45,45,35,1
+Style: Part 6 Next Episode - Back,FOT-Gospel Std EB,130,&H00C446FE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,103,100,0,0,1,10,0,2,45,45,35,1
+Style: Part 6 Next Episode - Medium,FOT-Gospel Std EB,112,&H00C446FE,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,103,100,0,0,1,3,0,2,25,25,35,1
+Style: Part 6 Next Episode - Medium Back,FOT-Gospel Std EB,112,&H00C446FE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,103,100,0,0,1,10,0,2,25,25,35,1
+Style: Part 6 Next Episode - Small,FOT-Gospel Std EB,95,&H00C446FE,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,103,100,0,0,1,3,0,2,25,25,35,1
+Style: Part 6 Next Episode - Small Back,FOT-Gospel Std EB,95,&H00C446FE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,103,100,0,0,1,10,0,2,25,25,35,1
+Style: Default,Trebuchet MS,65,&H00FEFFFE,&H000000FF,&H00282828,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0,0,70,1
+Style: TiretsDefault,Trebuchet MS,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,1,0,0,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:23:29.35,0:23:34.35,Default,,0,0,0,,Subtitles: Thomas Chaumont
+Comment: 0,0:01:57.89,0:02:00.89,Title Part 6,,0,0,0,,
+Dialogue: 9,0:00:00.48,0:00:03.82,Default,,0,0,0,,{\i1}The court rules that the defendant, Jolyne Kujo...{\i0}
+Dialogue: 9,0:00:03.95,0:00:05.57,Default,,0,0,0,,You're interesting.
+Dialogue: 9,0:00:06.07,0:00:08.53,Default,,0,0,0,,What did you do?\NWhy did they lock you up?
+Dialogue: 9,0:00:09.03,0:00:09.95,Default,,0,0,0,,I'm innocent.
+Dialogue: 9,0:00:10.62,0:00:15.70,Default,,0,0,0,,... shall be incarcerated\nat Green Dolphin Street State Prison
+Dialogue: 9,0:00:15.79,0:00:17.83,Default,,0,0,0,,for 15 years.
+Dialogue: 9,0:00:17.96,0:00:20.38,Default,,0,0,0,,{\i1}What is that thing?{\i0}
+Dialogue: 9,0:00:20.92,0:00:23.54,Default,,0,0,0,,{\i1}So you have a power too.{\i0}
+Dialogue: 9,0:00:24.05,0:00:25.80,Default,,0,0,0,,{\i1}Stone Free.{\i0}
+Dialogue: 9,0:00:25.93,0:00:30.01,Default,,0,0,0,,{\i1}It'll set me free from this ocean of stone.{\i0}
+Dialogue: 9,0:02:02.19,0:02:03.44,Default,,0,0,0,,{\an8\i1}Stone Free.{\i0}
+Dialogue: 9,0:02:03.65,0:02:07.02,Default,,0,0,0,,{\an8\i1}When it unravels,\Nthis string can reach far.{\i0}
+Dialogue: 9,0:02:07.11,0:02:10.15,Default,,0,0,0,,{\an8\i1}But then it deals\nless and less damage.{\i0}
+Dialogue: 9,0:02:12.11,0:02:13.95,Default,,0,0,0,,{\i1}When it gathers back together, it hardens.{\i0}
+Dialogue: 9,0:02:14.66,0:02:17.66,Default,,0,0,0,,{\i1}Its range is then limited\Nto about two meters.{\i0}
+Dialogue: 9,0:02:19.41,0:02:22.00,Default,,0,0,0,,Can I break the bars\nwith Stone Free?
+Dialogue: 9,0:02:22.58,0:02:25.04,Default,,0,0,0,,{\i1}No, it's not strong enough.{\i0}
+Dialogue: 9,0:02:25.17,0:02:26.79,Default,,0,0,0,,{\i1}The most it can do is this.{\i0}
+Dialogue: 9,0:02:30.76,0:02:33.84,Default,,0,0,0,,{\i1}My mental energy is controlled\nby the stone in the pendant.{\i0}
+Dialogue: 9,0:02:34.76,0:02:37.10,Default,,0,0,0,,{\i1}As much as I'd love to get out of here\nthanks to this power,{\i0}
+Dialogue: 9,0:02:39.01,0:02:40.64,Default,,0,0,0,,{\i1}now is not the time yet.{\i0}
+Dialogue: 9,0:02:41.14,0:02:42.35,Default,,0,0,0,,{\i1}First I need to know{\i0}
+Dialogue: 9,0:02:43.35,0:02:45.14,Default,,0,0,0,,{\i1}everything I can about this place.{\i0}
+Dialogue: 9,0:02:45.23,0:02:46.90,Default,,0,0,0,,Hey, you.
+Dialogue: 9,0:02:47.40,0:02:49.15,Default,,0,0,0,,I'm talking to you!
+Dialogue: 9,0:02:49.28,0:02:51.94,Default,,0,0,0,,Sorry,\Nbut could you lend me some change?
+Dialogue: 9,0:02:52.03,0:02:55.53,Default,,0,0,0,,I left everything in my cell,\Nand roll call will be over if I go back.
+Dialogue: 9,0:02:55.74,0:02:59.58,Default,,0,0,0,,I'll pay you back as soon as I'm done.\NI just need one dollar.
+Dialogue: 9,0:03:00.02,0:03:02.48,Default,,0,0,0,,I haven't talked to my family\nin a long time.
+Dialogue: 9,0:03:03.87,0:03:04.83,Default,,0,0,0,,No problem.
+Dialogue: 9,0:03:05.58,0:03:06.50,Default,,0,0,0,,Here.
+Dialogue: 9,0:03:06.63,0:03:08.50,Default,,0,0,0,,Thanks! You're a lifesaver!
+Dialogue: 9,0:03:08.71,0:03:10.01,Default,,0,0,0,,I'll pay you back!
+Dialogue: 9,0:03:12.21,0:03:16.34,Default,,0,0,0,,Move it, bitch!\NDon't even think about cutting in line!
+Dialogue: 9,0:03:16.43,0:03:17.68,Default,,0,0,0,,Hold on a second!
+Dialogue: 9,0:03:17.89,0:03:22.18,Default,,0,0,0,,I waited half an hour\nfor her to finish!
+Dialogue: 9,0:03:22.27,0:03:24.18,Default,,0,0,0,,I didn't see you!
+Dialogue: 9,0:03:24.31,0:03:26.14,Default,,0,0,0,,You idiot. You must be new here.
+Dialogue: 9,0:03:26.23,0:03:28.65,Default,,0,0,0,,You have to book the phone in advance.
+Dialogue: 9,0:03:28.78,0:03:30.23,Default,,0,0,0,,Nobody told me!
+Dialogue: 9,0:03:30.36,0:03:32.07,Default,,0,0,0,,Well, now you know.
+Dialogue: 9,0:03:32.28,0:03:35.03,Default,,0,0,0,,Reservations\nare made one month ahead.
+Dialogue: 9,0:03:35.16,0:03:36.78,Default,,0,0,0,,A month?
+Dialogue: 9,0:03:36.91,0:03:41.24,Default,,0,0,0,,Why would I wait a whole month\nfor a few minutes on the phone?
+Dialogue: 9,0:03:41.33,0:03:43.79,Default,,0,0,0,,Prison is a weird place, huh?
+Dialogue: 9,0:03:44.00,0:03:46.50,Default,,0,0,0,,Hey, I'll buy that phone slot off you.
+Dialogue: 9,0:03:47.79,0:03:50.75,Default,,0,0,0,,And here's the cause of that phenomenon.
+Dialogue: 9,0:03:56.92,0:03:59.59,Default,,0,0,0,,{\i1}I want to call him.\NI want to hear his voice.{\i0}
+Dialogue: 9,0:03:59.68,0:04:00.89,Default,,0,0,0,,{\i1}My mother's voice...{\i0}
+Dialogue: 9,0:04:01.02,0:04:02.72,Default,,0,0,0,,Jolyne!
+Dialogue: 9,0:04:02.85,0:04:04.52,Default,,0,0,0,,What's up?
+Dialogue: 9,0:04:04.73,0:04:06.68,Default,,0,0,0,,Shut up! Stay away from me!
+Dialogue: 9,0:04:06.77,0:04:09.44,Default,,0,0,0,,I already told you\nyou and I are over!
+Dialogue: 9,0:04:09.57,0:04:12.57,Default,,0,0,0,,Don't push me away like that.
+Dialogue: 9,0:04:12.78,0:04:14.15,Default,,0,0,0,,I came to warn you.
+Dialogue: 9,0:04:14.36,0:04:17.45,Default,,0,0,0,,You just screwed up.
+Dialogue: 9,0:04:17.66,0:04:18.45,Default,,0,0,0,,What?
+Dialogue: 9,0:04:18.57,0:04:21.16,Default,,0,0,0,,You just lent a dollar\nto that little blonde, right?
+Dialogue: 9,0:04:21.87,0:04:24.04,Default,,0,0,0,,Make her pay you back, fast.
+Dialogue: 9,0:04:24.25,0:04:27.50,Default,,0,0,0,,Your life here will be ruined\nif you don't get paid back right now.
+Dialogue: 9,0:04:27.63,0:04:30.63,Default,,0,0,0,,What are you talking about?\NOf course she'll pay me back.
+Dialogue: 9,0:04:30.84,0:04:32.08,Default,,0,0,0,,It was just one dollar.
+Dialogue: 9,0:04:32.17,0:04:35.42,Default,,0,0,0,,"Just one dollar"?
+Dialogue: 9,0:04:35.51,0:04:38.84,Default,,0,0,0,,You're digging your own grave with that attitude!
+Dialogue: 9,0:04:38.97,0:04:39.76,Default,,0,0,0,,What?
+Dialogue: 9,0:04:39.89,0:04:41.80,Default,,0,0,0,,Listen carefully, Jolyne.
+Dialogue: 9,0:04:41.89,0:04:43.47,Default,,0,0,0,,At the Aquarium,
+Dialogue: 9,0:04:43.68,0:04:46.64,Default,,0,0,0,,lending money between inmates,
+Dialogue: 9,0:04:46.85,0:04:49.35,Default,,0,0,0,,is to be avoided at all costs.
+Dialogue: 9,0:04:49.44,0:04:50.94,Default,,0,0,0,,Even if it's just one dollar.
+Dialogue: 9,0:04:51.07,0:04:55.86,Default,,0,0,0,,Imagine you can't\nget your dollar back.
+Dialogue: 9,0:04:56.07,0:04:57.49,Default,,0,0,0,,What do you think happens to you?
+Dialogue: 9,0:04:58.65,0:05:00.36,Default,,0,0,0,,You become prey, like her.
+Dialogue: 9,0:05:03.70,0:05:08.91,Default,,0,0,0,,"Jolyne, the new girl,\ncan't even get one dollar back."
+Dialogue: 9,0:05:09.04,0:05:11.37,Default,,0,0,0,,The rumor will spread\nlike wildfire.
+Dialogue: 9,0:05:11.87,0:05:13.75,Default,,0,0,0,,And soon, you'll be extorted.
+Dialogue: 9,0:05:13.96,0:05:14.88,Default,,0,0,0,,Like her.
+Dialogue: 9,0:05:15.01,0:05:17.88,Default,,0,0,0,,Every day, by everyone.
+Dialogue: 9,0:05:18.09,0:05:21.84,Default,,0,0,0,,When you run out of cash,\Nyou'll sell your body and your soul.
+Dialogue: 9,0:05:21.97,0:05:25.14,Default,,0,0,0,,Hell on Earth.
+Dialogue: 9,0:05:25.35,0:05:27.39,Default,,0,0,0,,Come on. You're exaggerating.
+Dialogue: 9,0:05:27.60,0:05:31.39,Default,,0,0,0,,Really? It was "just one dollar"\Nfor her, at first too.
+Dialogue: 9,0:05:31.48,0:05:33.69,Default,,0,0,0,,Look at your blonde, up there.
+Dialogue: 9,0:05:33.97,0:05:35.29,Default,,0,0,0,,She went back to her cell
+Dialogue: 9,0:05:35.46,0:05:37.94,Default,,0,0,0,,and has no intention\nof coming down to pay you back.
+Dialogue: 9,0:05:38.07,0:05:41.40,Default,,0,0,0,,I'm telling you this for your own good.
+Dialogue: 9,0:05:52.58,0:05:53.42,Default,,0,0,0,,Hi.
+Dialogue: 9,0:05:54.04,0:05:55.33,Default,,0,0,0,,Can I talk to you?
+Dialogue: 9,0:05:55.46,0:05:57.34,Default,,0,0,0,,Hey, there.
+Dialogue: 9,0:05:57.55,0:05:59.38,Default,,0,0,0,,Apparently, it's a classic.
+Dialogue: 9,0:05:59.59,0:06:00.59,Default,,0,0,0,,Have you read it?
+Dialogue: 9,0:06:01.09,0:06:01.97,Default,,0,0,0,,No.
+Dialogue: 9,0:06:02.55,0:06:04.47,Default,,0,0,0,,I'm here about the money.
+Dialogue: 9,0:06:04.60,0:06:07.93,Default,,0,0,0,,Can you pay me back?
+Dialogue: 9,0:06:08.14,0:06:09.68,Default,,0,0,0,,Oh, of course.
+Dialogue: 9,0:06:10.18,0:06:12.31,Default,,0,0,0,,One dollar, right? I haven't forgotten.
+Dialogue: 9,0:06:12.44,0:06:15.52,Default,,0,0,0,,I'm keeping it in mind, don't worry.
+Dialogue: 9,0:06:15.98,0:06:17.52,Default,,0,0,0,,I'll pay you back later.
+Dialogue: 9,0:06:17.65,0:06:19.98,Default,,0,0,0,,You told me you had money\nin your cell.
+Dialogue: 9,0:06:20.07,0:06:22.45,Default,,0,0,0,,I saw you go in.\NDo you have the money on you?
+Dialogue: 9,0:06:22.58,0:06:25.03,Default,,0,0,0,,Screw you, bitch!
+Dialogue: 9,0:06:25.24,0:06:28.95,Default,,0,0,0,,I told you I'd pay you back.\NI don't have it on me, got it?
+Dialogue: 9,0:06:29.04,0:06:31.16,Default,,0,0,0,,You're short one coin or something?
+Dialogue: 9,0:06:34.58,0:06:38.54,Default,,0,0,0,,Anyway, can you give me ten dollars?
+Dialogue: 9,0:06:38.63,0:06:43.47,Default,,0,0,0,,I can call friends on the outside\nand ask them to lend me some.
+Dialogue: 9,0:06:43.68,0:06:46.72,Default,,0,0,0,,Please. You must have some on you.\NCome on, don't be shy!
+Dialogue: 9,0:07:09.87,0:07:11.04,Default,,0,0,0,,What the...
+Dialogue: 9,0:07:16.54,0:07:18.08,Default,,0,0,0,,What the hell is happening to me?
+Dialogue: 9,0:07:18.21,0:07:19.63,Default,,0,0,0,,I'm about to lose it all!
+Dialogue: 9,0:07:21.80,0:07:23.88,Default,,0,0,0,,Hey, you!
+Dialogue: 9,0:07:24.38,0:07:26.47,Default,,0,0,0,,Can you hurry up?
+Dialogue: 9,0:07:26.97,0:07:29.18,Default,,0,0,0,,I know you're there!
+Dialogue: 9,0:07:29.31,0:07:32.64,Default,,0,0,0,,I'm giving you back your dollar!
+Dialogue: 9,0:07:32.85,0:07:35.69,TiretsDefault,,482,0,0,, Please!\N You'll pay me back later, won't you?
+Dialogue: 9,0:07:35.90,0:07:38.77,Default,,0,0,0,,No problem. Take your time.
+Dialogue: 9,0:07:40.06,0:07:43.65,Default,,0,0,0,,I'll buy that time off you!\nFive... no, ten dollars!
+Dialogue: 9,0:07:43.86,0:07:44.99,Default,,0,0,0,,Deal!
+Dialogue: 9,0:07:45.49,0:07:48.70,Default,,0,0,0,,Sorry. That'll be ten dollars.
+Dialogue: 9,0:08:00.84,0:08:01.79,Default,,0,0,0,,Hey, you.
+Dialogue: 9,0:08:02.34,0:08:03.80,Default,,0,0,0,,Go to the bathroom right after.
+Dialogue: 9,0:08:04.01,0:08:06.67,Default,,0,0,0,,Someone else is going to have\na big urge in a minute.
+Dialogue: 9,0:08:07.17,0:08:11.14,Default,,0,0,0,,Getting your money back, though,\Nthat's on you.
+Dialogue: 9,0:08:11.64,0:08:15.14,Default,,0,0,0,,Only you can save yourself.
+Dialogue: 9,0:08:18.06,0:08:20.73,Default,,0,0,0,,Damn, what's happening to me?
+Dialogue: 9,0:08:20.86,0:08:23.65,Default,,0,0,0,,{\i1}Yes, I'll leave soon.{\i0}
+Dialogue: 9,0:08:23.86,0:08:25.19,Default,,0,0,0,,{\i1}I'll be out of here soon.{\i0}
+Dialogue: 9,0:08:28.24,0:08:30.95,Default,,0,0,0,,Inmate FE40536.
+Dialogue: 9,0:08:31.45,0:08:32.95,Default,,0,0,0,,I'm going back to my cell.
+Dialogue: 9,0:08:33.16,0:08:34.49,Default,,0,0,0,,Please open the door.
+Dialogue: 9,0:08:53.68,0:08:54.68,Default,,0,0,0,,Tomorrow at noon,
+Dialogue: 9,0:08:55.77,0:08:57.64,Default,,0,0,0,,you're going to have a visitor.
+Dialogue: 9,0:08:58.14,0:08:59.35,Default,,0,0,0,,Whatever you do, don't go.
+Dialogue: 9,0:09:00.14,0:09:02.90,Default,,0,0,0,,Do not go to the visiting room.
+Dialogue: 9,0:09:03.25,0:09:06.86,Default,,0,0,0,,If you go, many people will be\nin grave danger, yourself included.
+Dialogue: 9,0:09:07.14,0:09:09.95,Default,,0,0,0,,A fate worse than death\nwill await us all.
+Dialogue: 9,0:09:19.79,0:09:21.96,Default,,0,0,0,,{\i1}Who was that?{\i0}
+Dialogue: 9,0:09:22.17,0:09:23.88,Default,,0,0,0,,{\i1}How could a child get in here?{\i0}
+Dialogue: 9,0:09:24.09,0:09:25.13,Default,,0,0,0,,Hey, you!
+Dialogue: 9,0:09:25.63,0:09:28.17,Default,,0,0,0,,Didn't you hear?
+Dialogue: 9,0:09:28.26,0:09:30.17,Default,,0,0,0,,Hands off the bars!
+Dialogue: 9,0:09:30.26,0:09:31.26,Default,,0,0,0,,Step back!
+Dialogue: 9,0:09:31.47,0:09:32.34,Default,,0,0,0,,Open the door.
+Dialogue: 9,0:09:32.47,0:09:33.30,Default,,0,0,0,,Right now!
+Dialogue: 9,0:09:33.93,0:09:36.35,Default,,0,0,0,,I said: "Hands off the bars!"
+Dialogue: 9,0:10:24.31,0:10:27.23,Default,,0,0,0,,A visitor is coming tomorrow at noon.
+Dialogue: 9,0:10:27.44,0:10:29.02,Default,,0,0,0,,Not to see you, though.
+Dialogue: 9,0:10:29.15,0:10:31.57,Default,,0,0,0,,To see someone in the building next door.
+Dialogue: 9,0:10:31.78,0:10:32.86,Default,,0,0,0,,That tip's worth a lot.
+Dialogue: 9,0:10:38.24,0:10:39.24,Default,,0,0,0,,By the way,
+Dialogue: 9,0:10:40.45,0:10:42.04,Default,,0,0,0,,you put them on backwards.
+Dialogue: 9,0:10:42.25,0:10:43.41,Default,,0,0,0,,Your pants, I mean.
+Dialogue: 9,0:10:57.64,0:10:58.85,Default,,0,0,0,,Oh, what a show-off.
+Dialogue: 9,0:10:59.06,0:11:02.18,Default,,0,0,0,,Sorry about yesterday, FE40536.
+Dialogue: 9,0:11:02.27,0:11:06.23,Default,,0,0,0,,But it's your own fault,\nholding the bars like that.
+Dialogue: 9,0:11:06.36,0:11:07.90,Default,,0,0,0,,Rules are rules.
+Dialogue: 9,0:11:08.03,0:11:09.65,Default,,0,0,0,,I had already let go.
+Dialogue: 9,0:11:09.86,0:11:11.69,Default,,0,0,0,,But you hit me twice.
+Dialogue: 9,0:11:11.82,0:11:15.61,Default,,0,0,0,,What? What are you mumbling?\NI can't hear you.
+Dialogue: 9,0:11:15.70,0:11:18.53,Default,,0,0,0,,Nothing.\NCan I do something for you?
+Dialogue: 9,0:11:18.62,0:11:20.45,Default,,0,0,0,,Someone's here for you.
+Dialogue: 9,0:11:22.49,0:11:24.83,Default,,0,0,0,,Get up. Let me cuff you.
+Dialogue: 9,0:11:25.04,0:11:28.54,Default,,0,0,0,,A visit? Who is it? My mother?
+Dialogue: 9,0:11:28.63,0:11:31.34,Default,,0,0,0,,How would I know?\NGive me your hands, damn it.
+Dialogue: 9,0:11:39.64,0:11:41.68,Default,,0,0,0,,Stay on the mark.
+Dialogue: 9,0:11:42.81,0:11:44.10,Default,,0,0,0,,Let me explain the rules.
+Dialogue: 9,0:11:44.31,0:11:48.19,Default,,0,0,0,,You have 30 minutes.\NYou may hold hands,
+Dialogue: 9,0:11:48.40,0:11:50.69,Default,,0,0,0,,but undressing and kissing\nare forbidden.
+Dialogue: 9,0:11:50.90,0:11:53.61,Default,,0,0,0,,You'll receive what the visitor brought you\nafter the visit.
+Dialogue: 9,0:11:53.82,0:11:55.53,Default,,0,0,0,,Speaking a foreign language is forbidden.
+Dialogue: 9,0:11:55.74,0:11:59.20,Default,,0,0,0,,Depending on how the visit goes,\Nthe guard may decide to end it.
+Dialogue: 9,0:11:59.33,0:12:01.49,Default,,0,0,0,,Stay here until further notice.
+Dialogue: 9,0:12:12.00,0:12:13.38,Default,,0,0,0,,Don't go any further.
+Dialogue: 9,0:12:16.84,0:12:18.97,Default,,0,0,0,,Turn back.\NReturn to your cell!
+Dialogue: 9,0:12:19.76,0:12:21.18,Default,,0,0,0,,It's not too late!
+Dialogue: 9,0:12:21.31,0:12:23.72,Default,,0,0,0,,Who are you?
+Dialogue: 9,0:12:24.22,0:12:26.23,Default,,0,0,0,,How did a kid like you\nget in here?
+Dialogue: 9,0:12:30.52,0:12:33.32,Default,,0,0,0,,I don't fully understand it myself,
+Dialogue: 9,0:12:33.82,0:12:37.15,Default,,0,0,0,,but there are things\nmore frightening than death.
+Dialogue: 9,0:12:37.74,0:12:40.82,Default,,0,0,0,,They happen in this prison.
+Dialogue: 9,0:12:40.95,0:12:43.62,Default,,0,0,0,,So please, turn back.\NReturn to your cell!
+Dialogue: 9,0:12:44.16,0:12:46.79,Default,,0,0,0,,No. It must be my mother.
+Dialogue: 9,0:12:46.92,0:12:48.58,Default,,0,0,0,,I want to see her.
+Dialogue: 9,0:12:48.79,0:12:50.29,Default,,0,0,0,,She must miss me too.
+Dialogue: 9,0:12:50.50,0:12:54.34,Default,,0,0,0,,I have to show her I'm doing fine!
+Dialogue: 9,0:12:55.67,0:12:57.17,Default,,0,0,0,,Then take this object.
+Dialogue: 9,0:12:57.97,0:12:59.88,Default,,0,0,0,,It should protect you.
+Dialogue: 9,0:13:01.34,0:13:03.72,Default,,0,0,0,,FE40536, all set.
+Dialogue: 9,0:13:03.93,0:13:04.72,Default,,0,0,0,,Come in!
+Dialogue: 9,0:13:06.93,0:13:08.10,Default,,0,0,0,,{\i1}A bone!{\i0}
+Dialogue: 9,0:13:12.06,0:13:14.27,Default,,0,0,0,,What are you waiting for? Come in.
+Dialogue: 9,0:13:37.96,0:13:42.18,Default,,0,0,0,,Jolyne, did you receive the pendant\nI asked your mother to give you?
+Dialogue: 9,0:13:43.84,0:13:45.35,Default,,0,0,0,,Dad.
+Dialogue: 9,0:13:55.69,0:13:58.78,Default,,0,0,0,,Car theft and wallet theft.\NAssault.
+Dialogue: 9,0:13:58.91,0:14:02.11,Default,,0,0,0,,There must be a mistake!\NMy Jolyne would never...
+Dialogue: 9,0:14:02.20,0:14:05.49,Default,,0,0,0,,Since she's only 14,\nthe case will be filed and dismissed.
+Dialogue: 9,0:14:05.99,0:14:07.12,Default,,0,0,0,,You're leaving for Tokyo?
+Dialogue: 9,0:14:07.33,0:14:10.33,Default,,0,0,0,,This is about your daughter!
+Dialogue: 9,0:14:11.08,0:14:14.17,Default,,0,0,0,,Why not leave tomorrow instead?\NAnd you call yourself a good father?
+Dialogue: 9,0:14:14.38,0:14:16.79,Default,,0,0,0,,Are you even listening?
+Dialogue: 9,0:14:31.39,0:14:33.69,Default,,0,0,0,,Jolyne, can you hear me?
+Dialogue: 9,0:14:33.90,0:14:34.73,Default,,0,0,0,,Where's the pendant?
+Dialogue: 9,0:14:37.86,0:14:40.65,Default,,0,0,0,,I'd rather be sent to solitary.
+Dialogue: 9,0:14:40.78,0:14:43.03,Default,,0,0,0,,If I'd known it was you,\NI wouldn't have come.
+Dialogue: 9,0:14:43.53,0:14:46.20,Default,,0,0,0,,Hey, open the door!
+Dialogue: 9,0:14:46.33,0:14:48.99,Default,,0,0,0,,Damn it, I knocked too hard.
+Dialogue: 9,0:14:49.08,0:14:50.41,Default,,0,0,0,,Get up!
+Dialogue: 9,0:14:50.91,0:14:52.00,Default,,0,0,0,,Come on.
+Dialogue: 9,0:14:53.04,0:14:54.46,Default,,0,0,0,,Jolyne, listen to me.
+Dialogue: 9,0:14:54.59,0:14:56.29,Default,,0,0,0,,It wasn't your boyfriend Romeo
+Dialogue: 9,0:14:56.38,0:15:00.30,Default,,0,0,0,,who framed you\nand got you convicted of murder.
+Dialogue: 9,0:15:01.80,0:15:02.63,Default,,0,0,0,,Jongalli A.
+Dialogue: 9,0:15:03.38,0:15:06.26,Default,,0,0,0,,That man is locked up here,\Nin the men's building.
+Dialogue: 9,0:15:06.76,0:15:07.93,Default,,0,0,0,,He's a former soldier.
+Dialogue: 9,0:15:08.14,0:15:11.85,Default,,0,0,0,,A sniper accustomed to killing\nin the most difficult conditions.
+Dialogue: 9,0:15:12.06,0:15:13.27,Default,,0,0,0,,According to his file,
+Dialogue: 9,0:15:13.48,0:15:16.73,Default,,0,0,0,,his eyesight deteriorated\nbecause of cataracts.
+Dialogue: 9,0:15:17.31,0:15:19.48,Default,,0,0,0,,He's the one behind all this.
+Dialogue: 9,0:15:19.57,0:15:21.11,Default,,0,0,0,,Even your fatal accident.
+Dialogue: 9,0:15:21.94,0:15:25.70,Default,,0,0,0,,One of Jongalli A's henchmen\nkidnapped a hitchhiker
+Dialogue: 9,0:15:25.83,0:15:27.66,Default,,0,0,0,,and threw him under your wheels.
+Dialogue: 9,0:15:29.41,0:15:31.37,Default,,0,0,0,,He hired a lawyer and a judge
+Dialogue: 9,0:15:31.87,0:15:33.50,Default,,0,0,0,,ready to do anything for money.
+Dialogue: 9,0:15:34.20,0:15:37.12,Default,,0,0,0,,Jongalli A pulled the strings from here,\Nfrom inside this prison.
+Dialogue: 9,0:15:37.83,0:15:39.46,Default,,0,0,0,,{\i1}Please help me, Jolyne!{\i0}
+Dialogue: 9,0:15:39.67,0:15:41.71,Default,,0,0,0,,{\i1}Do you know what\na plea deal is?{\i0}
+Dialogue: 9,0:15:41.80,0:15:43.21,Default,,0,0,0,,{\i1}I love you!{\i0}
+Dialogue: 9,0:15:43.34,0:15:45.51,Default,,0,0,0,,{\i1}The court rules that the defendant,{\i0}
+Dialogue: 9,0:15:45.72,0:15:48.09,TiretsDefault,,775,0,0,,{\i1} Jolyne Kujo...\N Fifteen years...{\i0}
+Dialogue: 9,0:15:49.39,0:15:53.06,Default,,0,0,0,,You son of a bitch!\NYou hit me twice yesterday!
+Dialogue: 9,0:15:53.27,0:15:54.89,Default,,0,0,0,,Goddamn it!
+Dialogue: 9,0:15:56.64,0:15:58.35,Default,,0,0,0,,But why?
+Dialogue: 9,0:15:58.48,0:16:03.32,Default,,0,0,0,,Why would he have plotted\Nto get me imprisoned?
+Dialogue: 9,0:16:04.90,0:16:06.32,TiretsDefault,,797,0,0,, Sit down.\N Answer me!
+Dialogue: 9,0:16:06.45,0:16:07.70,Default,,0,0,0,,I told you to sit down.
+Dialogue: 9,0:16:12.24,0:16:15.16,Default,,0,0,0,,Listen.\NJongalli A has had you in his sights from the start.
+Dialogue: 9,0:16:16.00,0:16:18.62,Default,,0,0,0,,He can eliminate you whenever he wants
+Dialogue: 9,0:16:18.71,0:16:20.04,Default,,0,0,0,,from inside these walls.
+Dialogue: 9,0:16:20.13,0:16:21.46,Default,,0,0,0,,Why me?
+Dialogue: 9,0:16:21.59,0:16:24.30,Default,,0,0,0,,Because you're my daughter.
+Dialogue: 9,0:16:24.80,0:16:26.26,Default,,0,0,0,,You're a Joestar.
+Dialogue: 9,0:16:27.93,0:16:28.93,Default,,0,0,0,,Joestar?
+Dialogue: 9,0:16:29.80,0:16:33.31,Default,,0,0,0,,The Joestar bloodline\ngoes back millennia.
+Dialogue: 9,0:16:33.81,0:16:36.60,Default,,0,0,0,,Jongalli A wants to take revenge\non our family.
+Dialogue: 9,0:16:36.73,0:16:40.52,Default,,0,0,0,,We were given the precious gift\nof moving people's hearts.
+Dialogue: 9,0:16:41.02,0:16:43.57,Default,,0,0,0,,But powerful emotions sometimes\nleave marks behind.
+Dialogue: 9,0:16:43.78,0:16:45.57,Default,,0,0,0,,Marks called grudges.
+Dialogue: 9,0:16:46.69,0:16:47.99,Default,,0,0,0,,In the past,
+Dialogue: 9,0:16:48.12,0:16:51.49,Default,,0,0,0,,I defeated a mortal enemy\nof the Joestar clan.
+Dialogue: 9,0:16:51.99,0:16:54.49,Default,,0,0,0,,Jongalli A is that enemy's offspring.
+Dialogue: 9,0:16:54.58,0:16:56.83,Default,,0,0,0,,I've never met him,\nbut I'm sure of it.
+Dialogue: 9,0:16:57.04,0:16:59.33,Default,,0,0,0,,Even though it goes back 20 years,
+Dialogue: 9,0:16:59.54,0:17:03.67,Default,,0,0,0,,Jongalli A uses his fanaticism\nas a means to take revenge.
+Dialogue: 9,0:17:03.88,0:17:07.21,Default,,0,0,0,,I don't understand.\NI thought you were a marine biologist.
+Dialogue: 9,0:17:07.30,0:17:09.47,Default,,0,0,0,,Why are you talking to me about enemies\nand grudges?
+Dialogue: 9,0:17:09.60,0:17:12.39,Default,,0,0,0,,Just know that you're a target.
+Dialogue: 9,0:17:12.82,0:17:14.43,Default,,0,0,0,,I'll get you out of here immediately.
+Dialogue: 9,0:17:14.64,0:17:16.01,Default,,0,0,0,,We'll forget about the law.
+Dialogue: 9,0:17:16.14,0:17:18.18,Default,,0,0,0,,Have you become acquainted with your Stand?
+Dialogue: 9,0:17:18.31,0:17:19.35,Default,,0,0,0,,Stand?
+Dialogue: 9,0:17:19.85,0:17:23.48,Default,,0,0,0,,Since you're my daughter,\Nyou're predisposed to have such a power.
+Dialogue: 9,0:17:24.06,0:17:26.82,Default,,0,0,0,,Have you noticed changes\nthanks to the pendant?
+Dialogue: 9,0:17:28.15,0:17:29.90,Default,,0,0,0,,It seems you have.
+Dialogue: 9,0:17:30.03,0:17:31.28,Default,,0,0,0,,That is your Stand.
+Dialogue: 9,0:17:31.86,0:17:34.20,Default,,0,0,0,,Stand... Then you have one too?
+Dialogue: 9,0:17:34.41,0:17:35.87,Default,,0,0,0,,Use it and get out of this place.
+Dialogue: 9,0:17:36.00,0:17:36.83,Default,,0,0,0,,Understood?
+Dialogue: 9,0:17:40.29,0:17:41.50,Default,,0,0,0,,Cut the crap.
+Dialogue: 9,0:17:42.00,0:17:43.71,Default,,0,0,0,,Don't play dad now.
+Dialogue: 9,0:17:46.71,0:17:49.09,Default,,0,0,0,,Suddenly here to save me!
+Dialogue: 9,0:17:49.30,0:17:50.88,Default,,0,0,0,,What is this, sudden fatherly love?
+Dialogue: 9,0:17:50.97,0:17:54.18,Default,,0,0,0,,I've already forgotten you.
+Dialogue: 9,0:17:54.31,0:17:55.80,Default,,0,0,0,,But fine, no problem.
+Dialogue: 9,0:17:55.89,0:17:59.18,Default,,0,0,0,,I'll remember this whole story\nand my thing, the Stand.
+Dialogue: 9,0:18:01.39,0:18:02.85,Default,,0,0,0,,You can go now.
+Dialogue: 9,0:18:02.98,0:18:04.65,Default,,0,0,0,,Never come back.
+Dialogue: 9,0:18:07.48,0:18:09.19,Default,,0,0,0,,{\i1}The handcuffs!{\i0}
+Dialogue: 9,0:18:09.32,0:18:10.65,Default,,0,0,0,,{\i1}When did I take them off?{\i0}
+Dialogue: 9,0:18:17.58,0:18:18.91,Default,,0,0,0,,{\i1}Since when...{\i0}
+Dialogue: 9,0:18:19.70,0:18:21.12,Default,,0,0,0,,{\i1}has the mark been different?{\i0}
+Dialogue: 9,0:18:21.25,0:18:24.58,Default,,0,0,0,,{\i1}The guard never even\napproached the table.{\i0}
+Dialogue: 9,0:18:26.13,0:18:28.13,Default,,0,0,0,,Jolyne, get away from the door!
+Dialogue: 9,0:18:29.34,0:18:32.05,Default,,0,0,0,,Star Platinum, The World!
+Dialogue: 9,0:18:33.01,0:18:34.26,Default,,0,0,0,,Time, stop!
+Dialogue: 9,0:18:55.20,0:18:56.82,Default,,0,0,0,,What happened?
+Dialogue: 9,0:18:56.91,0:18:59.28,Default,,0,0,0,,Shh! The fight is about to begin.
+Dialogue: 9,0:19:04.25,0:19:07.21,Default,,0,0,0,,What's over there, on the right? Windows?
+Dialogue: 9,0:19:07.42,0:19:11.55,Default,,0,0,0,,Two or three. All with bars.
+Dialogue: 9,0:19:11.68,0:19:13.01,Default,,0,0,0,,It's a real bullet.
+Dialogue: 9,0:19:13.51,0:19:16.64,Default,,0,0,0,,A Sniper Premium,\nspecially designed for rifles.
+Dialogue: 9,0:19:16.94,0:19:19.28,Default,,0,0,0,,Jongalli A must be somewhere nearby.
+Dialogue: 9,0:19:19.44,0:19:22.72,Default,,0,0,0,,Wait, I thought he was an inmate.
+Dialogue: 9,0:19:22.81,0:19:25.39,Default,,0,0,0,,Here, you're not even allowed a pen,\nso a rifle...
+Dialogue: 9,0:19:25.48,0:19:28.11,Default,,0,0,0,,Right?\NA rifle can be taken apart, you know.
+Dialogue: 9,0:19:28.49,0:19:31.27,Default,,0,0,0,,You can hide the pieces\ninside random objects.
+Dialogue: 9,0:19:31.78,0:19:34.53,Default,,0,0,0,,By bribing the guards,
+Dialogue: 9,0:19:34.74,0:19:36.78,Default,,0,0,0,,the objects don't get searched.
+Dialogue: 9,0:19:37.28,0:19:39.53,Default,,0,0,0,,Bit by bit, slowly but surely...
+Dialogue: 9,0:19:39.62,0:19:41.54,Default,,0,0,0,,But we're in the women's prison!
+Dialogue: 9,0:19:41.75,0:19:44.12,Default,,0,0,0,,He can't shoot at me\nfrom the men's prison!
+Dialogue: 9,0:19:44.33,0:19:47.29,Default,,0,0,0,,These are separate buildings.\NThere are obstacles!
+Dialogue: 9,0:19:47.42,0:19:49.92,Default,,0,0,0,,A rifle combined with a power\nmakes it possible.
+Dialogue: 9,0:19:50.13,0:19:53.26,Default,,0,0,0,,In other words, Jongalli A\nmost definitely has a Stand.
+Dialogue: 9,0:19:54.30,0:19:55.13,Default,,0,0,0,,Look.
+Dialogue: 9,0:20:04.85,0:20:05.93,Default,,0,0,0,,What is that thing?
+Dialogue: 9,0:20:08.65,0:20:10.19,Default,,0,0,0,,Keep your face away from the opening.
+Dialogue: 9,0:20:10.69,0:20:13.01,Default,,0,0,0,,It's not just a piece of trash.
+Dialogue: 9,0:20:13.22,0:20:14.69,Default,,0,0,0,,It's moving away.
+Dialogue: 9,0:20:15.19,0:20:16.36,Default,,0,0,0,,It looks very light.
+Dialogue: 9,0:20:16.86,0:20:18.74,Default,,0,0,0,,It's floating in the air.
+Dialogue: 9,0:20:18.95,0:20:20.16,Default,,0,0,0,,Don't provoke it.
+Dialogue: 9,0:20:20.29,0:20:22.87,Default,,0,0,0,,First we need to know\nwhat it can do.
+Dialogue: 9,0:20:26.83,0:20:27.71,Default,,0,0,0,,It dodged!
+Dialogue: 9,0:20:27.92,0:20:29.25,Default,,0,0,0,,Don't provoke it, I said.
+Dialogue: 9,0:20:29.46,0:20:31.08,Default,,0,0,0,,It can see my string?
+Dialogue: 9,0:20:31.17,0:20:32.71,Default,,0,0,0,,Keep your voice down.
+Dialogue: 9,0:20:32.92,0:20:34.42,Default,,0,0,0,,It's reacting to something.
+Dialogue: 9,0:20:35.05,0:20:36.55,Default,,0,0,0,,Not the string, that's certain.
+Dialogue: 9,0:20:37.17,0:20:39.34,Default,,0,0,0,,Its movements have nothing to do\nwith the string.
+Dialogue: 9,0:20:40.39,0:20:43.35,Default,,0,0,0,,Maybe it's reacting to...
+Dialogue: 9,0:20:43.56,0:20:46.52,Default,,0,0,0,,What's the word, again?\NThe change caused by the string in the air.
+Dialogue: 9,0:20:46.73,0:20:48.69,Default,,0,0,0,,The movement of the air?
+Dialogue: 9,0:20:48.82,0:20:51.40,Default,,0,0,0,,Aerodynamics.
+Dialogue: 9,0:20:51.61,0:20:53.65,Default,,0,0,0,,It detects our positions\nthrough aerodynamics.
+Dialogue: 9,0:20:53.78,0:20:55.98,Default,,0,0,0,,Okay, so it knows where we are.
+Dialogue: 9,0:20:56.07,0:20:58.74,Default,,0,0,0,,But how can it shoot\nfrom the men's building?
+Dialogue: 9,0:20:58.87,0:21:00.41,Default,,0,0,0,,That's the problem.
+Dialogue: 9,0:21:00.62,0:21:04.58,Default,,0,0,0,,Jolyne, a stroke of luck saved you.
+Dialogue: 9,0:21:05.08,0:21:08.04,Default,,0,0,0,,Don't move until we've figured out\nwhat this thing is.
+Dialogue: 9,0:21:08.54,0:21:10.75,Default,,0,0,0,,Stop giving me orders!
+Dialogue: 9,0:21:10.96,0:21:16.25,TiretsDefault,,751,0,0,, I've got it!\N You... FE40536!
+Dialogue: 9,0:21:16.38,0:21:20.01,Default,,0,0,0,,You're done for!
+Dialogue: 9,0:21:20.22,0:21:22.89,Default,,0,0,0,,Got it, Jolyne Kujo?
+Dialogue: 9,0:21:25.35,0:21:27.60,Default,,0,0,0,,What? It's coming toward us!
+Dialogue: 9,0:21:27.73,0:21:30.60,Default,,0,0,0,,I'm sending you\nto solitary!
+Dialogue: 9,0:21:30.69,0:21:31.98,Default,,0,0,0,,Don't move!
+Dialogue: 9,0:21:32.11,0:21:35.61,Default,,0,0,0,,I'll stop once\nI've beaten you to death!
+Dialogue: 9,0:21:35.82,0:21:36.65,Default,,0,0,0,,Calm down!
+Dialogue: 9,0:21:36.86,0:21:38.65,Default,,0,0,0,,Jolyne, stay close to the wall!
+Dialogue: 9,0:21:38.74,0:21:40.78,Default,,0,0,0,,I know! Stop giving me orders!
+Dialogue: 9,0:21:40.91,0:21:44.45,Default,,0,0,0,,We have to knock him out\nwhile there's still time!
+Dialogue: 9,0:21:44.66,0:21:47.20,Default,,0,0,0,,Bitch, who do you think you're talking to?
+Dialogue: 9,0:21:47.74,0:21:49.37,Default,,0,0,0,,You little mutt!
+Dialogue: 9,0:21:49.50,0:21:50.54,Default,,0,0,0,,Jolyne!
