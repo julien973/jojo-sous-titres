@@ -186,7 +186,7 @@ body { margin: 0; padding: 0 0 64px; min-height: 100vh; min-height: 100svh; over
 </main>
 <footer class="botbar"><div class="botbar-inner">
 <span data-fr="🎬 Stone Ocean — Sous-titres anglais" data-en="🎬 Stone Ocean — English subtitles">🎬 Stone Ocean — Sous-titres anglais</span>
-<span class="bb-ver">v1.3 · 2026</span>
+<span class="bb-ver">v1.4 · 2026</span>
 </div></footer>
 <script>
 (function(){
@@ -198,7 +198,7 @@ var EPS = [
   {n:2,  s:"done"},{n:3,  s:"done"},{n:4,  s:"done"},{n:5,  s:"done"},
   {n:6,  s:"done"},{n:7,  s:"done"},{n:8,  s:"done"},{n:9,  s:"done"},
   {n:10, s:"done"},
-  {n:11, s:"done"},{n:12, s:"wip"},{n:13, s:"todo"},{n:14, s:"todo"},
+  {n:11, s:"done"},{n:12, s:"done"},{n:13, s:"wip"},{n:14, s:"todo"},
   {n:15, s:"todo"},{n:16, s:"todo"},{n:17, s:"todo"},{n:18, s:"todo"},
   {n:19, s:"todo"},{n:20, s:"todo"},{n:21, s:"todo"},{n:22, s:"todo"},
   {n:23, s:"todo"},{n:24, s:"todo"},{n:25, s:"todo"},{n:26, s:"todo"},
@@ -277,8 +277,8 @@ function render(){
   var h = '<div class="hero"><h1>' + t("hero") + '</h1><p>' + t("heroSub") + '</p></div>';
   h += '<div class="kpis">';
   h += '<div class="kpi"><div class="label">' + t("kDone") + '</div><div class="value">' + done.length + '/38</div><div class="sub">' + pct + '%</div></div>';
-  h += '<div class="kpi"><div class="label">' + t("kWip") + '</div><div class="value">' + wip.length + '</div><div class="sub">EP 12</div></div>';
-  h += '<div class="kpi"><div class="label">' + t("kTodo") + '</div><div class="value">' + (todo.length + miss.length) + '</div><div class="sub">EP 01, 13–38</div></div>';
+  h += '<div class="kpi"><div class="label">' + t("kWip") + '</div><div class="value">' + wip.length + '</div><div class="sub">EP 13</div></div>';
+  h += '<div class="kpi"><div class="label">' + t("kTodo") + '</div><div class="value">' + (todo.length + miss.length) + '</div><div class="sub">EP 01, 14–38</div></div>';
   h += '</div>';
   h += '<div class="win"><div class="win-head"><span class="win-title">' + t("progT") + '</span><span class="bb-ver">' + done.length + ' ' + t("progS") + '</span></div>';
   h += '<div class="win-bar"><i style="width:' + pct + '%"></i></div></div>';
