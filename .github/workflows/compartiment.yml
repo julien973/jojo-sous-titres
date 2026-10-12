@@ -7,6 +7,9 @@ on:
       - "sources/**"
 permissions:
   contents: write
+concurrency:
+  group: compartiment
+  cancel-in-progress: true
 jobs:
   split:
     runs-on: ubuntu-latest
@@ -14,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Decouper les fichiers deposes en chunks base64 lisibles
         run: |
-          echo "=== compartiment $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" > compartiment-status.log
+          echo "=== compartiment ===" > compartiment-status.log
           mkdir -p tmp-chunks
           find . -maxdepth 2 -name "*.ass" -not -path "./subs/*" -not -path "./.github/*" | sort | while IFS= read -r f; do
             b=$(basename "$f" .ass)
@@ -31,10 +34,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tmp-chunks compartiment-status.log
+          git add tmp-chunks
           if git diff --staged --quiet; then
-            echo "aucun chunk a ecrire"
+            echo "aucun chunk a ecrire — rien a committer"
           else
+            git add compartiment-status.log
             git commit -m "compartiment: chunks auto"
-            git push
+            if ! git push; then
+              echo "push refuse, retentative apres rebase"
+              git pull --rebase origin main
+              git push
+            fi
           fi
