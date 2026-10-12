@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Decouper index.html en chunks base64 lisibles
         run: |
-          # marqueur: v3 (bump a chaque reutilisation pour re-declencher)
+          # marqueur: v4 (bump a chaque reutilisation pour re-declencher)
           mkdir -p tmp-chunks/index_html
           base64 -w 24000 index.html | split -l 1 -a 3 - "tmp-chunks/index_html/part-" --numeric-suffixes=1 --additional-suffix=".txt"
       - name: Commit des chunks
