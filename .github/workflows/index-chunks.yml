@@ -1,0 +1,28 @@
+name: index-chunks
+on:
+  push:
+    paths:
+      - ".github/workflows/index-chunks.yml"
+permissions:
+  contents: write
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decouper index.html en chunks base64 lisibles
+        run: |
+          # marqueur: v1 (bump a chaque reutilisation pour re-declencher)
+          mkdir -p tmp-chunks/index_html
+          base64 -w 24000 index.html | split -l 1 -a 3 - "tmp-chunks/index_html/part-" --numeric-suffixes=1 --additional-suffix=".txt"
+      - name: Commit des chunks
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tmp-chunks/index_html
+          if git diff --staged --quiet; then
+            echo "aucun chunk a ecrire"
+          else
+            git commit -m "index-chunks: chunks auto"
+            git push
+          fi
