@@ -10,7 +10,7 @@ Dépose ici les fichiers à traiter (sous-titres FR à traduire, ou EN déjà tr
 4. Clique sur « Commit changes »
 5. Dis juste « c'est ajouté » dans le chat
 
-## Ce qui se passe ensuite (automatique)
+## Ce qui se passe ensuite (automatiquement)
 
 - Récupération du fichier via GitHub (aucune troncature, intégrité vérifiée)
 - Traduction EN complète + vérifications (Whitesnake, karaoké verbatim, marges, crédit)
@@ -18,3 +18,5 @@ Dépose ici les fichiers à traiter (sous-titres FR à traduire, ou EN déjà tr
 - Suppression du fichier source d'ici — cette zone reste vide en temps normal
 
 Le livrable vit uniquement sur https://julien973.github.io/jojo-sous-titres/ — jamais présenté en chat.
+
+<!-- compartiment: ping 2026-10-12 -->
