@@ -14,17 +14,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: Decouper les fichiers deposes en chunks base64 lisibles
         run: |
+          echo "=== compartiment $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" > compartiment-status.log
           mkdir -p tmp-chunks
-          find . -maxdepth 2 -name "*.ass" -not -path "./subs/*" -not -path "./.github/*" | while read f; do
+          find . -maxdepth 2 -name "*.ass" -not -path "./subs/*" -not -path "./.github/*" | sort | while IFS= read -r f; do
             b=$(basename "$f" .ass)
             mkdir -p "tmp-chunks/$b"
-            base64 -w 24000 "$f" | split -l 1 - "tmp-chunks/$b/part-" --numeric-suffixes=1 --additional-suffix=".txt"
+            if base64 -w 24000 "$f" | split -l 1 -a 3 - "tmp-chunks/$b/part-" --numeric-suffixes=1 --additional-suffix=".txt" 2>>compartiment-status.log; then
+              echo "OK   $f ($(ls "tmp-chunks/$b" | wc -l) parts)" >> compartiment-status.log
+            else
+              echo "FAIL $f" >> compartiment-status.log
+            fi
           done
+          echo "total parts: $(find tmp-chunks -name 'part-*.txt' | wc -l)" >> compartiment-status.log
+          cat compartiment-status.log
       - name: Commit des chunks
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tmp-chunks
+          git add tmp-chunks compartiment-status.log
           if git diff --staged --quiet; then
             echo "aucun chunk a ecrire"
           else
